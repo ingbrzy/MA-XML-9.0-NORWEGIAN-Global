@@ -710,7 +710,6 @@ Prøv på nytt om %2$d sekunder."</string>
     <string name="notification_hidden_by_policy_text">Innholdet er skjult i henhold til retningslinjene</string>
     <string name="notification_hidden_text">Innholdet er skjult</string>
     <string name="notification_listener_binding_label">Varsellytteren</string>
-    <string name="notification_messaging_title_template">%1$s%2$s</string>
     <string name="notification_ranker_binding_label">Tjeneste for rangering av varsler</string>
     <string name="notification_title">Påloggingsfeil for %1$s</string>
     <string name="notification_work_profile_content_description">Arbeidsprofil</string>
@@ -1356,6 +1355,5 @@ Vil du lukke den?"</string>
     <string name="zen_mode_feature_name">«Ikke forstyrr»</string>
     <string name="zen_mode_forever">Inntil du slår av Ikke forstyrr</string>
     <string name="zen_mode_forever_dnd">Inntil du slår av Ikke forstyrr</string>
-    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">Til %1$s</string>
 </resources>

@@ -169,7 +169,6 @@
     <string name="color_picker_dialog_title">Velg farge</string>
     <string name="color_picker_hue">Fargetone</string>
     <string name="color_picker_saturation">Metning</string>
-    <string name="color_picker_value">Verdi</string>
     <string name="comment_app_menu">Kommenter</string>
     <string name="comment_description">Kommenter</string>
     <string name="comment_hint">Kommenter</string>

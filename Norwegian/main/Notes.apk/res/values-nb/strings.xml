@@ -6,7 +6,6 @@
     <string name="sina_token_expired_warning">Weibo-konto utløpt, legg til kontoen på nytt.</string>
     <string name="sina_token_invalid_warning">Weibo-konto ugyldig, legg til kontoen på nytt.</string>
     <string name="sina_share_fail_content_repeat">Du har allerede delt dette.</string>
-    <string name="search_title_notes">@string/app_name</string>
     <string name="search_keyword_notes">Notater;Memo</string>
     <string name="search_path_notes">Systemapps/Notater</string>
     <string name="dlg_move_message">Flytting…</string>
@@ -120,7 +119,6 @@
     <string name="error_unsupport_content">Dette notatet inneholder ustøttet innhold. Trykk her for å oppdatere</string>
     <string name="error_contact_not_exist">Kontakten finnes ikke</string>
     <string name="sync_tips">Trykk for å synkronisere notater med Mi Cloud.</string>
-    <string name="micloud_state_total_count">%1$s</string>
     <string name="pref_title_font_size">Fontstørrelse</string>
     <string name="call_folder_name">Samtalenotater</string>
     <string name="trash_folder_name">Papirkurv</string>
