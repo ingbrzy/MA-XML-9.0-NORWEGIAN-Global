@@ -9,12 +9,12 @@
         <item quantity="one">Feil PIN-kode, %d forsøk gjenstår</item>
     </plurals>
     <plurals name="phone_locked_timeout_seconds_string">
-        <item quantity="other">Try again in %d seconds</item>
+        <item quantity="other">Prøv igjen om %d sekunder</item>
         <item quantity="one">Prøv igjen om %d sekund</item>
     </plurals>
     <plurals name="phone_locked_timeout_minutes_string">
-        <item quantity="other">Try again in %d minutes</item>
-        <item quantity="one">Prøv igjen om %d minutter</item>
+        <item quantity="other">Prøv igjen om %d minutter</item>
+        <item quantity="one">Prøv igjen om %d minutt</item>
     </plurals>
     <plurals name="new_notifications_msg">
         <item quantity="other">%d new notifications</item>
@@ -49,8 +49,8 @@
         <item quantity="one">%d time</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_min_time_format">
-        <item quantity="other">%d minutes</item>
-        <item quantity="one">%d minutter</item>
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">%d minutt</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_time_format">
         <item quantity="other">%1$d h %2$d m</item>

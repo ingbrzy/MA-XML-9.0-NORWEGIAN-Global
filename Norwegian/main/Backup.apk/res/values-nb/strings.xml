@@ -6,6 +6,9 @@ Size: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introduserer versjon %1$s
 Delta-oppdateringsstørrelse: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Lagring er ikke tilgjengelig. Sjekk SD-kortet ditt.</string>
+    <string name="xiaomi_bytes_unit">%1$s B</string>
+    <string name="xiaomi_kilobytes_unit">%1$s KB</string>
+    <string name="xiaomi_megabytes_unit">%1$s MB</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke starte nedlastingen. Sørg for at Nedlastingsadministratoren fungerer som normalt.</string>
     <string name="app_name">Sikkerhetskopi</string>
     <string name="local_app_name">Sikkerhetskopi</string>
@@ -46,7 +49,7 @@ Delta-oppdateringsstørrelse: %2$s"</string>
     <string name="restore_launcher_layout_hit">Gjenopprett oppstartsinnstillinger</string>
     <string name="settings_summary">Telefon- og meldingsinnstillinger</string>
     <string name="camera_summary">Kamerainnstillinger (inkluderer ikke bilder)</string>
-    <string name="account_summary">Gjenopprett Google Account, Mi Account, og andre brukerdata</string>
+    <string name="account_summary">Back up Google Account, Mi Account, and other user data</string>
     <string name="cloud_app_name">Mi Cloud sikkerhetskopi</string>
     <string name="cloud_home_title">Mi Cloud</string>
     <string name="prompt_reading">Leser…</string>
@@ -225,6 +228,7 @@ Delta-oppdateringsstørrelse: %2$s"</string>
     <string name="restore_backup">Gjenopprett</string>
     <string name="enable_encrypt_description">Krypter</string>
     <string name="disable_encrypt_description">Ikke krypter</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Et øyeblikk…</string>
     <string name="state_mounting">Får tilgang til ruterlagring…</string>
     <string name="abort_backup_confirm">Sikkerhetskopieringen er ikke ferdig. Stoppe allikevel?</string>
@@ -246,7 +250,7 @@ Delta-oppdateringsstørrelse: %2$s"</string>
     <string name="err_filesystem_mount">Får ikke tilgang til ruterlagring</string>
     <string name="err_router_disconnected">Sjekk rutertilkoblingen din og prøv igjen.</string>
     <string name="err_router_files_delete">Kunne ikke slette sikkerhetskopieringsfiler på ruteren</string>
-    <string name="err_not_allow">Not support</string>
+    <string name="err_not_allow">Not supported</string>
     <string name="backup_is_running">Sikkerhetskopierer enhet</string>
     <string name="restore_is_running">Gjenoppretter enhet</string>
     <string name="notif_backup_title">Sikkerhetskopier data</string>
@@ -342,14 +346,14 @@ Tid brukt: %s"</string>
     <string name="trans_scan_qr_code_tips">Skann QR-kode med ny enhet</string>
     <string name="trans_show_qr_code_label">Koble til gammel enhet</string>
     <string name="trans_show_qr_code_tips">Skann QR-kode med gammel enhet</string>
-    <string name="trans_operate_new_phone_tips">"Gå til innstillinger > Flere innstillinger > Mi Mover
+    <string name="trans_operate_new_phone_tips">"Gå til innstillinger > Tilleggsinnstillinger > Mi Mover
 Trykk på [Jeg er en mottaker] og opprett en QR-kode"</string>
     <string name="trans_operate_func_one">Metode A</string>
     <string name="trans_operate_func_two">Metode B</string>
     <string name="trans_operate_old_phone_tips1">"1. Installer Mi Mover-appen på den gamle enheten din
 2. Åpne appen og trykk på Start
 3. Skann QR-koden med den gamle enheten din"</string>
-    <string name="trans_operate_old_phone_tips2">Gå til innstillinger > Flere innstillinger > Mi Mover, Trykk på [Jeg er en sender]</string>
+    <string name="trans_operate_old_phone_tips2">Gå til innstillinger > Tilleggsinnstillinger > Mi Mover, Trykk på [Jeg er en sender]</string>
     <string name="trans_operate_reconnect_new_tips">"Vent til den nye telefonen viser \"Tilkoblingen ble avbrutt\".
 Trykk deretter på \"Koble til igjen\" for å opprette en QR-kode."</string>
     <string name="trans_operate_reconnect_old_tips">"Vent til den gamle telefonen viser \"Tilkoblingen ble avbrutt\".
@@ -374,7 +378,7 @@ Fjern minst %s."</string>
     <string name="size_mega_byte">MB</string>
     <string name="size_giga_byte">GB</string>
     <string name="trans_connect_failed_title">Kunne ikke koble til</string>
-    <string name="trans_connect_failed_message">Kunne ikke koble til. Prøv igjen eller start enheten på nytt. På den andre enheten kan du gå til Innstillinger > Flere innstillinger > Mi Mover, trykk på [Jeg er en sender], eller start Mi Mover på nytt etter omstart.</string>
+    <string name="trans_connect_failed_message">Kunne ikke koble til. Prøv igjen eller start enheten på nytt. På den andre enheten kan du gå til Innstillinger > Tilleggsinnstillinger > Mi Mover, trykk på [Jeg er en sender], eller start Mi Mover på nytt etter omstart.</string>
     <string name="trans_retry">Prøv igjen</string>
     <string name="trans_start_failed_title">Kunne ikke starte overføringen</string>
     <string name="trans_start_failed_message">Kunne ikke starte overføringen. Prøv igjen eller start enheten på nytt.</string>
@@ -489,6 +493,7 @@ https://appleid.apple.com/#!&amp;page=signin å lukke"</string>
 bør du først opprette en sikkerhetskopi av iCloud."</string>
     <string name="list_footer_tip_title">Tips:</string>
     <string name="import_tip_summary">Grunnet kompatibilitetsproblemer, kan du kun overføre delvise data fra iOS-enheter. Sørg for at du lager en sikkerhetskopiering av iCloud før du overfører.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Importer</string>
     <string name="select_empty">Velg elementer å importere</string>
     <string name="select_item_summary_wait">Venter…</string>

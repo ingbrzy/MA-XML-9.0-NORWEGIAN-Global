@@ -358,6 +358,13 @@ Hvis du ikke oppdaterer, kan det hende at dobbeltapper ikke fungerer som de skal
     <string name="sdcradfs_dialog_in_sec_message">"For å oppdatere må du slette Andre område og deretter opprette det på nytt. Flytt data fra Andre område til Første område og start enheten på nytt for å fullføre oppdateringen. 
 Hvis du ikke oppdaterer, kan det hende at dobbeltapper ikke fungerer som de skal."</string>
     <string name="space_created_success">Andre område opprettet</string>
+    <string name="encrypt_space_delete_dialog_title">Attention</string>
+    <string name="encrypt_space_delete_dialog_message">"You're about to update Android. After the update, Second space data will become incompatible. To avoid this, move all data to First space, delete Second space, and create it again."</string>
+    <string name="encrypt_space_delete_dialog_click_message">"*If you don't need to move data, %s"</string>
+    <string name="encrypt_space_delete_dialog_click_message_action">delete and create Second space now.</string>
+    <string name="encrypt_space_delete_dialog_positive_text">Move data</string>
+    <string name="encrypt_space_delete_notification_title">Second space</string>
+    <string name="encrypt_space_delete_notification_message">Delete your Second space and create a new one to update your device successfully.</string>
     <string name="space_create_guide_title_1">Protect your privacy</string>
     <string name="space_create_guide_desc_1">Store apps and photos securely</string>
     <string name="space_create_guide_title_2">Create anytime</string>
@@ -368,15 +375,14 @@ Hvis du ikke oppdaterer, kan det hende at dobbeltapper ikke fungerer som de skal
     <string name="second_space_desktop_tips_dialog_title">Important update</string>
     <string name="second_space_desktop_tips_dialog_positive_text">Skjønner</string>
     <string name="second_space_desktop_tips_dialog_message">After this update, the icons for moving data and managing Second space will no longer be displayed on the Home screen. You will be able to access their corresponding features in the Settings.</string>
-    <string name="green_guard">蜂巢</string>
-    <string name="bind_device">绑定设备</string>
-    <string name="green_guard_des1">一键绑定设备，操作简单快捷</string>
-    <string name="green_guard_title2">查看定位</string>
-    <string name="green_guard_des2">实时定位查询，守护外出安全</string>
-    <string name="green_guard_title3">管理应用</string>
-    <string name="green_guard_des3">管理设备应用，控制使用时间</string>
-    <string name="experience_more_features">绑定设备后可体验更多功能</string>
-    <string name="add_spare_text">守护中</string>
-    <string name="control_and_guarding">管控守护中</string>
-    <string name="can_not_switch_when_green_kid_active">家长守护中禁止切换分身</string>
+    <string name="green_guard">Parental controls</string>
+    <string name="bind_device">Add devices</string>
+    <string name="green_guard_des1">Add devices to manage them remotely</string>
+    <string name="green_guard_title2">View location info</string>
+    <string name="green_guard_des2">Know where exactly all managed devices are</string>
+    <string name="green_guard_title3">Behandle apper</string>
+    <string name="green_guard_des3">Control installed apps and restrict usage</string>
+    <string name="experience_more_features">Add a device to view all features</string>
+    <string name="can_not_switch_when_green_kid_active">Switching to Second space is restricted by parental controls</string>
+    <string name="need_network_when_bind">Connect to the network before Adding devices</string>
 </resources>

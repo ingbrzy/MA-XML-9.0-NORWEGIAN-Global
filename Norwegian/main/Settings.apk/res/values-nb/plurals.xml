@@ -33,8 +33,8 @@
         <item quantity="one">Alltid deaktiver for 1 app</item>
     </plurals>
     <plurals name="auto_startup_count">
-        <item quantity="other">%d apps are allowed to autostart</item>
-        <item quantity="one">%d apper har tillatelse til å starte automatisk</item>
+        <item quantity="other">%d apper har tillatelse til å starte automatisk</item>
+        <item quantity="one">%d app har tillatelse til å starte automatisk</item>
     </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d devices</item>
@@ -137,8 +137,8 @@
         <item quantity="one">For mange feilaktige forsøk. Prøv igjen om %d sekund.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
-        <item quantity="other">Wait for %d seconds and try again.</item>
-        <item quantity="one">Vent i %d sekunder og prøv igjen.</item>
+        <item quantity="other">Vent i %d sekunder og prøv igjen.</item>
+        <item quantity="one">Vent i %d sekund og prøv igjen.</item>
     </plurals>
     <plurals name="manage_notification_access_summary_nonzero">
         <item quantity="other">%d apper kan lese varsler</item>
@@ -273,7 +273,7 @@ Kontakt administratoren din hvis du vil ha mer informasjon om dette sertifikatet
         <item quantity="one">1 nettverk</item>
     </plurals>
     <plurals name="wifi_share_count">
-        <item quantity="other">Shared %d networks</item>
+        <item quantity="other">Delte %d nettverk</item>
         <item quantity="one">Delte %d nettverk</item>
     </plurals>
     <plurals name="wrong_pin_code">

@@ -90,6 +90,7 @@
     <string name="hints_apk_header_left">Pakker</string>
     <string name="hints_residual_header_left">Rester</string>
     <string name="hints_memory_header_left">Minne</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Store filer: %d</string>
     <string name="hints_installed_apps_header_left">Installerte apper: %d</string>
     <string name="toast_resolve_apk_error">Løs apk-feil</string>
@@ -241,7 +242,7 @@
     <string name="privacy_clipboard_type">Utklippstavle</string>
     <string name="privacy_clipboard_desc">Innhold i utklipstavle</string>
     <string name="privacy_search_type">Google søk</string>
-    <string name="privacy_search_desc">Search history</string>
+    <string name="privacy_search_desc">Søkelogg</string>
     <string name="privacy_app_desc">Konto og passord</string>
     <string name="privacy_app_desc_message">Konto, passord og meldinger</string>
     <string name="privacy_app_desc_setting">Konto, passord og meldinger</string>
@@ -296,6 +297,7 @@
     <string name="downloading">Laster ned</string>
     <string name="installing">Installering</string>
     <string name="start_install">Installer nå</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Åpne i nettleser</string>
     <string name="title_share_link">Del lenke</string>
     <string name="connecting">Kobler til…</string>
@@ -420,7 +422,7 @@
     <string name="wechat_qq_normal_files">Papirkurv</string>
     <string name="wechat_cache_files">WeChat cache</string>
     <string name="qq_cache_files">QQ-hurtigminne</string>
-    <string name="wechat_qq_activity_title">Deep clean</string>
+    <string name="wechat_qq_activity_title">Dyprensing</string>
     <string name="wechat_qq_chat_files">Chat-historikk</string>
     <string name="analying">Analyserer…</string>
     <string name="open_file_error">Kunne ikke finne appen som åpner denne filen</string>
@@ -491,8 +493,8 @@
     <string name="wq_deep_clean_filter_month_ago">For 1 måned siden</string>
     <string name="wq_deep_clean_filter_three_month_ago">For 3 måneder siden</string>
     <string name="wq_deep_clean_filter_years_ago">For 6 måneder siden</string>
-    <string name="auto_clean_time_every_day">Every day</string>
-    <string name="auto_clean_time_three_day">Every 3 days</string>
-    <string name="auto_clean_time_seven_day">Every 7 days</string>
-    <string name="auto_clean_time_fifteen_day">Every 15 days</string>
+    <string name="auto_clean_time_every_day">Hver dag</string>
+    <string name="auto_clean_time_three_day">Hver 3. dag</string>
+    <string name="auto_clean_time_seven_day">Hver 7. dag</string>
+    <string name="auto_clean_time_fifteen_day">Hver 15. dag</string>
 </resources>

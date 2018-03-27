@@ -66,7 +66,7 @@
     </plurals>
     <plurals name="micloud_main_resume_sync_hour">
         <item quantity="other">Fortsett synkronisering etter %d timer</item>
-        <item quantity="one">Fortsett synkronisering etter %d timer</item>
+        <item quantity="one">Fortsett synkronisering etter %d time</item>
     </plurals>
     <plurals name="micloud_main_resume_sync_min">
         <item quantity="other">Fortsett synkronisering etter %d minutter</item>

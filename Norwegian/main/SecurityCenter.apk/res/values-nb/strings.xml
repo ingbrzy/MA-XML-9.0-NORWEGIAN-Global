@@ -71,15 +71,15 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="dlg_add_white">Nye anrop og meldinger fra nummere som er lagt til i unntak vil vises i anropshistorikk og meldingsinboksen, men tidligere blokkerte elementer vises ikke. Legge til valgte numre til unntak?</string>
     <string name="dlg_not_block_sms">Fjerne blokkering av valgte numre? De vil bli lagt til under unntak, men tidligere blokkerte elementer vises ikke i meldingsinnboksen.</string>
     <string name="dlg_not_block_call">Fjerne blokkering av valgte numre? De vil bli lagt til under unntak, men tidligere blokkerte elementer vises ikke i anropslisten.</string>
-    <string name="dlg_update_date_title">Warning</string>
+    <string name="dlg_update_date_title">Advarsel</string>
     <string name="dlg_update_data_content">Du er ikke koblet til Wi-Fi. Bruk av mobildata kan generere ekstra gebyrer. Fortsette likevel?</string>
-    <string name="dlg_sec_network_unavailable">"Security app can't update because you've restricted the internet connection. Allow Security to connect to the internet?"</string>
-    <string name="dlg_update_btn_contiue">Continue</string>
-    <string name="dlg_update_btn_open">Allow</string>
-    <string name="dlg_update_updating">Updating…</string>
-    <string name="toast_update_nonetwork">"Couldn't connect to the network"</string>
-    <string name="toast_update_fail">"Couldn't update"</string>
-    <string name="toast_update_success">Updated successfully</string>
+    <string name="dlg_sec_network_unavailable">Security-appen kan ikke oppdatere fordi du har begrenset internett-tilkoblingen. Tillat Security å koble til internett?</string>
+    <string name="dlg_update_btn_contiue">Fortsett</string>
+    <string name="dlg_update_btn_open">Tillat</string>
+    <string name="dlg_update_updating">Oppdaterer…</string>
+    <string name="toast_update_nonetwork">Kunne ikke koble til nettverket</string>
+    <string name="toast_update_fail">Kunne ikke oppdatere</string>
+    <string name="toast_update_success">Oppdateringen er vellykket</string>
     <string name="toast_update_notneed">Up to date</string>
     <string name="menu_call">Slå nummer</string>
     <string name="menu_sms">Send melding</string>
@@ -176,7 +176,7 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="report_success">Melding rapportert</string>
     <string name="report_error">Rapportering av melding mislyktes</string>
     <string name="report_warning">Rapportere %1$s SMS til Mi? Disse meldingene, og telefonnummeret de ble sendt fra, lastes opp til Mis servere for gjennomgang. Personlig informasjon knyttet til disse meldingene er alltid anonym.</string>
-    <string name="report_warning_title">Rapporter SMS</string>
+    <string name="report_warning_title">Attention</string>
     <string name="st_sub_title_customize_mode_name">Navn</string>
     <string name="read_all_sms">Lest alt</string>
     <string name="loding">Laster inn data</string>
@@ -261,7 +261,7 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="mark_time_text">%d</string>
     <string name="mark_time_setting_dialog_title">Rapporter nummer</string>
     <string name="sms_smart_engine_update">Oppdater SMS-filter automatisk</string>
-    <string name="sms_smart_engine_update_now">Update</string>
+    <string name="sms_smart_engine_update_now">Oppdater</string>
     <string name="mark_number_setting_guide_title">Blokker rapporterte numre</string>
     <string name="mark_number_setting_guide_content1">Blokkere anrop fra rapporterte numre?</string>
     <string name="mark_number_setting_guide_content2">Blokker anrop fra numre som har blitt rapportert av andre brukere automatisk</string>
@@ -423,6 +423,7 @@ svarer"</string>
     <string name="detail_app_button">App-info</string>
     <string name="pref_about_traffic_title">Databrukinnstillinger</string>
     <string name="pref_traffic_manage_title">Databruk</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Dataplan</string>
     <string name="pref_adjust_traffic_data">Still inn databruk</string>
     <string name="pref_category_title_other">Ekstra innstillinger</string>
@@ -545,8 +546,8 @@ Your carrier may charge you extra fees if you turn on mobile data again."</strin
     <string name="lock_screen_traffic_notify_body">Låst for %2$s på %1$s, brukt data %3$s</string>
     <string name="timeshow_s">%ds</string>
     <string name="timeshow_m">%dm</string>
-    <string name="timeshow_h">%.1fh</string>
-    <string name="timeshow_h_int">%dh</string>
+    <string name="timeshow_h">%.1ft</string>
+    <string name="timeshow_h_int">%dt</string>
     <string name="lock_screen_traffic_guide_notification_title">Trykk for å administrere databruk.</string>
     <string name="lock_screen_traffic_guide_notification_summary">%s brukt i låst skjerm</string>
     <string name="lock_screen_traffic_purchase_textview">Kjøp mobildata</string>
@@ -942,6 +943,7 @@ Dette reduserer batterilevetiden."</string>
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Denne appen kan forsinke
 enheten din"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Avinstallere %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Avinstaller denne appen for å fikse problemer med batteribruk.</string>
     <string name="om_ill_proc_type_wakelock_title">Appen blokkerer hvilemodus og tømmer batteri</string>
@@ -1000,6 +1002,7 @@ enheten din"</string>
     <string name="usage_type_data_send">Mobildata sendt</string>
     <string name="usage_type_no_coverage">Tid uten signal</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="power_screen">Skjerm</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1345,6 +1348,7 @@ enheten din"</string>
     <string name="menu_text_networkassistants">Databruk</string>
     <string name="menu_text_networkassistants_remain">%s igjen</string>
     <string name="menu_text_networkassistants_danger">%s over</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1705,6 +1709,7 @@ enheten din"</string>
     <string name="card_main_deepclean_wechat_action">Tøm</string>
     <string name="card_main_sectool_title">Verktøy</string>
     <string name="card_main_monthreport_action">Vis</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Test nettverk</string>
     <string name="card_main_netcheck_summary">Test tilkobling for nettverksproblemer</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -2110,8 +2115,8 @@ enheten din"</string>
     <string name="open_game">Åpen</string>
     <string name="try_game">Prøv</string>
     <string name="more_game">Flere spill</string>
-    <string name="sys_title_gamebooster_unit_gb">G</string>
-    <string name="sys_title_gamebooster_unit_mb">M</string>
+    <string name="sys_title_gamebooster_unit_gb">GB</string>
+    <string name="sys_title_gamebooster_unit_mb">MB</string>
     <string name="gmscore_support_service">Google Services</string>
     <string name="gmscore_support_remind">Slå denne funksjonen på hvis du opplever problemer med bruk av Gmail, Google Maps og andre Google-apper. Det vil redusere batterilevetiden litt.</string>
     <string name="google_base_app_install_choice">\"%s\" krever at Google Services Framework skal fungere normalt, last ned og installer det?</string>
@@ -2199,9 +2204,9 @@ enheten din"</string>
     <string name="gs_sign_notification">Remind to check in at 8 PM daily</string>
     <string name="gb_sign_gift">Check in to get rewards</string>
     <string name="signed_rule">Rules</string>
-    <string name="signed_rule_one">1.Check in 10, 20, or 28 days in a row every month to get a Xunyou boost for 1, 2, or 3 days respectively.</string>
-    <string name="signed_rule_two">2.You can get only 1 Xunyou boost per month.</string>
-    <string name="signed_rule_three">"3.Days when you check in are annulled at the beginning of every month. The remaining days aren't rolled over."</string>
+    <string name="signed_rule_one">1. Check in 10, 20, or 28 days in a row every month to get a Xunyou boost for 1, 2, or 3 days respectively.</string>
+    <string name="signed_rule_two">2. You can get only 1 Xunyou boost per month.</string>
+    <string name="signed_rule_three">"3. Days when you check in are annulled at the beginning of every month. The remaining days aren't rolled over."</string>
     <string name="gb_get_gift_right_now">Check in now</string>
     <string name="gb_have_signed">Checked in today</string>
     <string name="gb_sign_gift_button_text">Receive</string>
@@ -2211,6 +2216,6 @@ enheten din"</string>
     <string name="gb_signed_title">Checked in this month</string>
     <string name="gb_network_status_bad">A connection error occurred.</string>
     <string name="gs_open_game_booster_summary">Boost network speed for games</string>
-    <string name="gb_signed_gift_loading_summary">Just a sec…</string>
+    <string name="gb_signed_gift_loading_summary">Et øyeblikk…</string>
     <string name="gb_signed_gift_loading_fail">Kunne ikke laste</string>
 </resources>

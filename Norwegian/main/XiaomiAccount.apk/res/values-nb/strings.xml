@@ -416,10 +416,10 @@ For å aktivere kontoen må du følge
     <string name="find_device_prompt_message">Enheten er sperret. Melding: %1$s.</string>
     <string name="find_device_activate_account">Aktiver konto</string>
     <string name="login_check_find_device">Henter enhetens sikkerhetsinformasjon…</string>
-    <string name="unlock_help_notice">"Hjelp:
-· Hvis du har glemt passordet ditt, gå til id.mi.com for å tilbakestille det.
-· Hvis du ikke kan låse opp enheten, gå til i.mi.com for å slå av Finn enhet.
-· Oppgi dette opplåsningsnummeret til kundeservice: %s"</string>
+    <string name="unlock_help_notice">"Help:
+1. If you forgot your password, go to id.mi.com to reset it.
+2. If you can't reset your password or somebody locked your device, go to i.mi.com to unlock it.
+3. Your unlock number: %s"</string>
     <string name="login_find_device_bind">Denne enheten er knyttet til eksisterende Mi-konto-ID (%s).</string>
     <string name="find_device_locked_account_phone" formatted="false">%s, tilknyttet telefonnummer: %s</string>
     <string name="find_device_locked_account_email" formatted="false">%s, tilknyttet e-postadresse: %s</string>
@@ -451,7 +451,7 @@ For å aktivere kontoen må du følge
     <string name="mipay_identity">ID-bekreftelse</string>
     <string name="mipay_indentity_done">Verifisert</string>
     <string name="mipay_identitiy_no">Ikke verifisert</string>
-    <string name="account_token_expired_title">Autentisering mislyktes</string>
+    <string name="account_token_expired_title">"Couldn't authenticate"</string>
     <string name="account_token_expired_msg">"Bekreftelseskoden er utløpt, start på nytt eller logg ut
  Din konto-ID: %s"</string>
     <string name="bind_safe_phone_msg">Legg til telefonnummeret ditt for å kunne logge på Mi-kontoen din neste gang.</string>

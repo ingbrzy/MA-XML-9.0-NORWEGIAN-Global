@@ -59,6 +59,8 @@
     <string name="sync_dspt_provision_title">Mi Cloud</string>
     <string name="sync_dspt_provision_header">Synkroniser</string>
     <string name="sync_dspt_provision">Synkroniser bildene, kontaktene, notatene og mer på tvers av enhetene dine, eller få tilgang til dem på</string>
+    <string name="sync_dspt_provision2">i.mi.com</string>
+    <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">". Du kan når som helst skru denne funksjonen på eller av i Innstillingene.
 "</string>
     <string name="sync_dspt_entrance_provision">"Mi Cloud hjelper deg med å synkronisere bilder, kontakter og andre elementer på tvers av enheter. Du kan få tilgang til synkroniserte enheter fra hvor som helst på %s. "</string>
@@ -70,6 +72,8 @@
     <string name="sync_dspt_entrance_provision_skip">Hopp over dette trinnet</string>
     <string name="sync_dspt_entrance_provision_network">Denne appen må kobles til internett for å fungere normalt. Synkronisering av data kan kreve mobildatatilgang og aktivering av Wi-Fi.</string>
     <string name="find_device_dspt_provision">Hvis du mister enheten din, kan du gå til %s for å finne, låse eller tilbakestille. Du kan når som helst skru denne funksjonen på eller av i Innstillingene.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_dspt_provision_3">. Du kan når som helst skru denne funksjonen på eller av i Innstillingene.</string>
     <string name="find_device_dspt_provision_4">Hvis du bytter SIM-kort, vil en SMS-melding automatisk sendes for å aktivere denne funksjonen på nytt.</string>
     <string name="find_device_send_sms_alert">Hvis du bytter SIM-kort, vil enda en SMS automatisk sendes for å aktivere denne funksjonen på nytt.</string>
@@ -89,9 +93,8 @@ Denne funksjonen krypterer og sender ID-en til enhetene dine til Mis servere."</
 Denne funksjonen krypterer og sender ID-en til enhetene dine til Mis servere."</string>
     <string name="user_agreement_p5">"
 "</string>
-    <string name="user_agreement_p6">Ved å bruke denne tjenesten, samtykker du til</string>
-    <string name="user_agreement_p7">Mi Clouds Tjenestevilkår</string>
-    <string name="user_agreement_p8">.</string>
+    <string name="user_agreement_link">"Mi Cloud's Terms of Service"</string>
+    <string name="user_agreement_content">"By using this service, you're agreeing to %s."</string>
     <string name="user_agreement_title">Mi Clouds Tjenestevilkår</string>
     <string name="privacy_policy">Personvernerklæring</string>
     <string name="loading">Et øyeblikk…</string>
@@ -119,6 +122,7 @@ Denne funksjonen krypterer og sender ID-en til enhetene dine til Mis servere."</
     <string name="find_device_error_server">Serverfeil</string>
     <string name="find_device_success_title">Finn enhet</string>
     <string name="find_device_notice_p1">Gå til</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
     <string name="find_device_notice_p3">"for å finne, låse eller gjenopprette telefonen din.
 Hvis du bytter SIM-kort, vil en melding automatisk sendes som aktiverer denne funksjonen på nytt."</string>
     <string name="i_know">OK</string>
@@ -168,7 +172,7 @@ Hvis du bytter SIM-kort, vil en melding automatisk sendes som aktiverer denne fu
     <string name="micloud_user_space_usage">Lagringsplass</string>
     <string name="micloud_web_discription_01">Logg inn på i.mi.com</string>
     <string name="micloud_web_discription_02">for å lagre og få tilgang til filene dine fra hvor som helst</string>
-    <string name="micloud_web_discription_place_holder">Visit %1$s</string>
+    <string name="micloud_web_discription_place_holder">Visit %1$s on your computer to manage your data.</string>
     <string name="micloud_full_influence_title">Når din Mi Cloud er full…</string>
     <string name="micloud_warn_low_title">Nesten tom for plass</string>
     <string name="micloud_warn_low_sum">Din Mi Cloud er 90 % full.</string>
@@ -361,9 +365,6 @@ Du trenger et Mainland China bank-kort for å kjøpe ytterligere lagringsplass."
     <string name="buy_more_space_c_class">"Denne funksjonen krever et Mainland China bank-kort.
 Besøk mi.com/micloud for å få mer lagringsplass."</string>
     <string name="micloud_member_buy_title">Bekreft bestilling</string>
-    <string name="micloud_member_buy_content" formatted="false">"Gyldig til %s-%s-%s
-
-%s Mi-kreditt"</string>
     <string name="micloud_member_net_error_alert_title">Kan ikke koble til nettverket</string>
     <string name="micloud_member_net_error_alert_message">Du har ingen internettforbindelse.</string>
     <string name="micloud_member_pay_fail_toast">Kunne ikke fullføre betalingen</string>
@@ -479,6 +480,8 @@ Siste sikkerhetskopi var %2$s"</string>
     <string name="micloud_find_device_opened">Finn enhet på</string>
     <string name="micloud_find_device_open_fail">Kunne ikke skru på Finn enhet</string>
     <string name="micloud_find_device_opened_content">Finn enheten din på %s</string>
+    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
+    <string name="micloud_find_device_opened_content_url_int">www.mi.com/micloud</string>
     <string name="micloud_find_device_verify_fail">Kunne ikke aktivere Finn enhet på nytt</string>
     <string name="micloud_find_device_close_fail">Kunne ikke skru av Finn enhet</string>
     <string name="micloud_find_device_finish">Ferdig</string>
@@ -558,6 +561,8 @@ Siste sikkerhetskopi var %2$s"</string>
     <string name="micloud_main_head_menu_state_close">Av</string>
     <string name="micloud_main_head_menu_state_unavailable">Utilgjengelig</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">Find device is unavailable in Second space, you can use it in First space.</string>
+    <string name="micloud_footer_normal_url">i.mi.com</string>
+    <string name="micloud_footer_international_url">mi.com/micloud</string>
     <string name="ks_fingerprint_payment">Betaling med fingeravtrykk</string>
     <string name="ks_name_fido">FIDO</string>
     <string name="ks_name_alipay">IFAA</string>
