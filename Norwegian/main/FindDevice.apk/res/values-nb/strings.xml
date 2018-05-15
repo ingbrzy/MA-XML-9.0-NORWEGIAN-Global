@@ -22,7 +22,6 @@
     <string name="find_device_noise_title">Finn enhetens alarm</string>
     <string name="find_device_success_title">Finn enhet</string>
     <string name="find_device_notice_p1">Gå til</string>
-    <string name="find_device_notice_p2">i.mi.com</string>
     <string name="find_device_notice_p3">for å lokalisere, låse eller gjenopprette enheten din.</string>
     <string name="find_device_notice_sms_alert">Hvis du bytter SIM-kort, vil enda en SMS automatisk sendes for å aktivere denne funksjonen på nytt.</string>
     <string name="i_know">OK</string>

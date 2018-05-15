@@ -151,7 +151,6 @@
     <string name="do_disclosure_with_name">Denne enheten administreres av %s</string>
     <string name="face_unlock_reenter_title">Lagre dine ansiktsdata igjen.</string>
     <string name="face_unlock_reenter_content">Ansikts opplåsningsalgoritmen oppdateres. Trykk for å lagre ansiktsdata igjen.</string>
-    <string name="digital_clock_dot">:</string>
     <string name="keyguard_left_view_lock_wallpaper">Bakgrunnkarusell</string>
     <string name="gxzw_try_more_again">Prøv igjen</string>
     <string name="gxzw_use_password">Bruk passordet ditt til å låse opp</string>
