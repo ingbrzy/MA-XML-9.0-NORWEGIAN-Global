@@ -109,7 +109,7 @@
     <string name="yearly">Årlig (hver %s)</string>
     <string name="yearly_plain">Årlig</string>
     <string name="account_and_calendar">Kontoer</string>
-    <string name="action_bar_date_button_title">Calculate date</string>
+    <string name="action_bar_date_button_title">Beregn dato</string>
     <string name="action_bar_more_menu_view_description">Mer</string>
     <string name="action_bar_return">Tilbake</string>
     <string name="action_text_card_manager">Kanal</string>
@@ -165,7 +165,7 @@
     <string name="date_calculate_description">Finn ut hvilken dato det er før eller etter en viss dag</string>
     <string name="date_calculate_direction">Retning</string>
     <string name="date_calculate_direction_content_description">Nåværende retning: %1s.</string>
-    <string name="date_calculate_hint">Learn what date it is after a number days</string>
+    <string name="date_calculate_hint">Learn what date it is after a number of days</string>
     <string name="date_calculate_result">Resultat</string>
     <string name="date_calculate_tab">Beregn dato</string>
     <string name="date_calculate_today">0 dager</string>
@@ -250,7 +250,7 @@
     <string name="install_email_app">Installer Mail</string>
     <string name="install_email_finished">Installert</string>
     <string name="installing_email">Installerer…</string>
-    <string name="item_num_selected">%1$d selected</string>
+    <string name="item_num_selected">%1$d valgt</string>
     <string name="load_more_hint">Last inn hendelser fra %1$d</string>
     <string name="local_calendar_display_name">Lokal kalender</string>
     <string name="local_owner_account_name">Lagret til denne enheten</string>
@@ -362,7 +362,7 @@ Kontroller nettverksinnstillingene og prøv igjen."</string>
     <string name="subscribe_card">Abonner nå</string>
     <string name="subscribe_card_success">Abonneringen var vellykket! Sjekk detaljene på hjemmesiden.</string>
     <string name="subscribe_card_success_for_homepage">Abonnert til “%1$s”</string>
-    <string name="subscribe_channel_bottom_hint">—— Mi Calendar ——</string>
+    <string name="subscribe_channel_bottom_hint">—— Mi Kalender ——</string>
     <string name="subscribe_channel_click_hint">Abonnement er påkrevd</string>
     <string name="subscribe_channel_footer_button">Behandle abonnementer</string>
     <string name="subscribe_channel_footer_desc">Kontroller abonnementene dine eller avslutt abonnementet</string>

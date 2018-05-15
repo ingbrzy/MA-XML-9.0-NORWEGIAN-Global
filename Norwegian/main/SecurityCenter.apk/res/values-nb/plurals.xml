@@ -309,7 +309,7 @@ Hvis du skrur på mobildata igjen, kan leverandøren din belaste deg for ytterli
         <item quantity="one">%d dager som gjenstår før den økte nettverkshastighets-økten avsluttes. Forny økten for å unngå problemer med nettverkshastigheten.</item>
     </plurals>
     <plurals name="gb_signed_days_sum">
-        <item quantity="other">Checked in %d days in a row</item>
-        <item quantity="one">Checked in %d time</item>
+        <item quantity="other">Sjekket inn %d ganger på rad</item>
+        <item quantity="one">Sjekket inn %d gang</item>
     </plurals>
 </resources>

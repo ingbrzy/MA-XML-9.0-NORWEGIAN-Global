@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Keyguard</string>
     <string name="delete">Slett</string>
     <string name="unlockscreen_recharging_message">Lader %d%%</string>
     <string name="unlockscreen_recharge_completed">Batteri ladet</string>
     <string name="unlockscreen_low_battery">Koble til lader nå</string>
     <string name="lockscreen_charging_msg">Lagrer</string>
-    <string name="reset_device_tip">Charging is slow. Readjust your device.</string>
-    <string name="reset_device_detail_tip">Place your device on the wireless charger correctly to ensure high charging speed.</string>
-    <string name="wireless_charge_stop">Stopped wireless charging</string>
-    <string name="change_to_ac_charging">Switched to wireless charging</string>
-    <string name="wireless_charge_dialog_title">Readjust your device on the wireless charger</string>
-    <string name="wireless_charge_dialog_cancel">Avbryt</string>
-    <string name="wireless_current_charge">Current Charge</string>
+    <string name="reset_device_tip">Oppladingen går tregt. Juster enheten din.</string>
+    <string name="reset_device_detail_tip">Forsikre deg om at enheten er riktig plassert på ladebasen</string>
+    <string name="wireless_charge_stop">Trådløs lading stoppet</string>
+    <string name="change_to_ac_charging">Byttet til lading med kabel</string>
+    <string name="wireless_charge_dialog_title">Plasser enheten i midten av ladebasen</string>
+    <string name="wireless_charge_dialog_cancel">Skjønner</string>
+    <string name="wireless_current_charge">Lader</string>
     <string name="emergency_call_string">Nødssituasjon</string>
     <string name="forget_password_string">Glemt passord</string>
     <string name="input_puk_code">Oppgi PUK</string>
@@ -19,6 +20,7 @@
     <string name="input_pin_code">Skriv inn PIN-kode</string>
     <string name="incorrect_pukcode">Feil PUK-kode</string>
     <string name="incorrect_pincode">Feil PIN-kode</string>
+    <string name="kg_password_pin_failed">SIM PIN-operasjonen mislyktes!</string>
     <string name="lock_screen_date">EEEE, d. MMMM</string>
     <string name="lock_screen_date_12">EEEE, d. MMMM</string>
     <string name="phone_locked_string">Telefonen er låst</string>
@@ -54,7 +56,7 @@
     <string name="fingerprint_try_again_msg">Kunne ikke verifisere fingeravtrykk, prøv igjen.</string>
     <string name="fingerprint_not_identified_title">Tast inn passord</string>
     <string name="fingerprint_not_identified_msg">For mange mislykkede forsøk. Skriv inn passord nå eller prøv å bruke fingeravtrykket igjen om noen få sekunder.</string>
-    <string name="fingerprint_not_identified_msg_lock">Too many unsuccessful attempts. Enter password now.</string>
+    <string name="fingerprint_not_identified_msg_lock">For mange mislykkede forsøk. Tast inn passordet nå.</string>
     <string name="fingerprint_again_identified_msg">Ditt fingeravtrykk er aktivt nå. Bruk det til å låse opp enheten, eller skriv inn passordet.</string>
     <string name="fingerprint_add_title">Legg til fingeravtrykk</string>
     <string name="fingerprint_add_text">Fingeravtrykkgrensesnittet ble oppdatert. Legg til fingeravtrykket ditt på ny.</string>
@@ -65,7 +67,7 @@
     <string name="input_password_after_boot_msg">For å låse opp enheten, skriv inn passordet ditt</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">Du må gå inn på det Første lagringsstedet etter at enheten er omstartet</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Kan ikke bytte sted under en telefonsamtale</string>
-    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">"Can't switch between spaces when parental controls are on"</string>
+    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Kan ikke bytte mellom områder mens foreldrekontrollen er skrudd på</string>
     <string name="input_password_handle_sdcard_fs">Kan ikke gå inn på det sekundære lagringstedet fra låseskjermen. Gå inn via Første sted.</string>
     <string name="accessibility_enter_lock_wallpaper">Trykk for å åpne bakgrunnskarusell</string>
     <string name="wallpaper_global_des_drop_down_notify_text">Slipp for å se detaljer</string>
@@ -73,7 +75,7 @@
     <string name="lock_wallpaper_enter">Skriv inn</string>
     <string name="custom_lock_wallpaper_enter">Skriv inn</string>
     <string name="fingerprint_enter_second_psw_title">Skriv inn passord for sekundært lagringssted</string>
-    <string name="fingerprint_enter_second_psw_msg">Enter Second space password to be able to use fingerprint recognition</string>
+    <string name="fingerprint_enter_second_psw_msg">Skriv inn passordet for den sekundære lagringsplassen for å kunne bruke fingeravtrykk-gjenkjennelse</string>
     <string name="fingerprint_enter_second_psw_msg_oldman">Kan ikke gå inn på sekundær lagringsplass mens man er i Lite-modus</string>
     <string name="keyguard_charging_info_click_to_detail">Se detaljer</string>
     <string name="keyguard_quick_charging_info_click_to_detail">Hurtigladning. Trykk for å se detaljer.</string>
@@ -98,7 +100,7 @@
     <string name="face_data_introduction_msg">Ansiktsdata kan brukes til å låse opp din enhet eller verifisere din identitet. Legg til skjermpassord før du legger til ansiktsdata.</string>
     <string name="face_data_introduction_next">Neste</string>
     <string name="face_data_siggesstion_next">Neste</string>
-    <string name="face_data_siggesstion_next_time">Next (%ds)</string>
+    <string name="face_data_siggesstion_next_time">Neste (%ds)</string>
     <string name="face_data_suggesstion_first">Sikkerhetsproblemer: Opplåsning via ansiktsgjenkjenning er mindre sikkert enn en PIN-kode, et passord eller et mønster. Din enhet kan låses opp med et bilde av deg, så vel som mennesker eller objekter med lignende utseende.</string>
     <string name="face_data_suggesstion_second">Forsikre deg om at ingen deler av ansiktet ditt er tildekket av objekter og er helt synlig. Du bør ha bra med lys i ansiktet.</string>
     <string name="face_data_input_camera_fail">Kunne ikke laste kamera</string>
@@ -129,7 +131,7 @@
     <string name="face_unlock_reveal_eye">Gjør øynene dine synlige</string>
     <string name="face_unlock_reveal_mouth">Gjør leppene dine synlige</string>
     <string name="face_unlock_check_failed">Kunne ikke gjenkjenne deg</string>
-    <string name="btn_camera">Enter your face</string>
+    <string name="btn_camera">Angi ansiktet ditt</string>
     <string name="face_unlock_passwork_and_fingerprint">Bruk passord eller ansiktsdata</string>
     <string name="face_unlock_passwork">Bruk passord</string>
     <string name="unlock_failed">Intern feil</string>
@@ -149,5 +151,9 @@
     <string name="do_disclosure_with_name">Denne enheten administreres av %s</string>
     <string name="face_unlock_reenter_title">Lagre dine ansiktsdata igjen.</string>
     <string name="face_unlock_reenter_content">Ansikts opplåsningsalgoritmen oppdateres. Trykk for å lagre ansiktsdata igjen.</string>
+    <string name="digital_clock_dot">:</string>
     <string name="keyguard_left_view_lock_wallpaper">Bakgrunnkarusell</string>
+    <string name="gxzw_try_more_again">Prøv igjen</string>
+    <string name="gxzw_use_password">Bruk passordet ditt til å låse opp</string>
+    <string name="gxzw_press_harder">Trykk litt hardere</string>
 </resources>

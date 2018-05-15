@@ -5,8 +5,8 @@
         <item quantity="one">Sikkerhetskopier hver dag</item>
     </plurals>
     <plurals name="cloud_backup_detail_manage_summary">
-        <item quantity="other">%1$s backups (%2$s)</item>
-        <item quantity="one">%1$s backup (%2$s)</item>
+        <item quantity="other">%1$s sikkerhetskopier (%2$s)</item>
+        <item quantity="one">%1$s sikkerhetskopi (%2$s)</item>
     </plurals>
     <plurals name="restoring_file_tile">
         <item quantity="other">Gjenoppretter %d filer</item>

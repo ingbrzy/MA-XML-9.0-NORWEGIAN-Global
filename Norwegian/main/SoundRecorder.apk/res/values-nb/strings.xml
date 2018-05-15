@@ -73,7 +73,7 @@
     <string name="pause">Pause</string>
     <string name="back">Tilbake</string>
     <string name="menu">Meny</string>
-    <string name="toast_uninstall_fileexplorer">Explorer-app er ikke installert</string>
+    <string name="toast_uninstall_fileexplorer">Filbehandler er ikke installert</string>
     <string name="record_download">Last ned fra Mi Cloud</string>
     <string name="record_download_msg">Opptak kan kun spilles av etter at de er lastet ned.</string>
     <string name="record_download_msg_reload">Dette opptaket eksisterer ikke.</string>
@@ -151,5 +151,5 @@
     <string name="head_set_tip_dialog_msg">Koble fra øretelefonene dine for å ta opp lyd med spesiell forhåndsinnstilling (f.eks. musikk, stemme).</string>
     <string name="head_set_tip_dialog_ok">Skjønner</string>
     <string name="rename_fail_tip">Kunne ikke gi nytt navn. Enheten med dette navnet eksisterer allerede.</string>
-    <string name="dialog_privacy_revoke_tips">"After you revoke authorization, the app will stop collecting data, and all the related data will be deleted from the servers. This might make the app virtually unusable. Revoke authorization anyway? To ensure your account's security, sign in to i.mi.com before revoking authorization for Mi Cloud services."</string>
+    <string name="dialog_privacy_revoke_tips">Etter at du har tilbakekalt autorisasjonen, vil appen slutte å samle inn data, og alle relaterte data vil bli slettet fra serverne. Dette kan gjøre appen ubrukelig i praksis. Tilbakekalle autorisasjonen likevel? Logg inn på i.mi.com før du tilbakekaller autorisasjon for Mi Cloud-tjenestene slik at du sikrer sikkerheten til kontoen din.</string>
 </resources>

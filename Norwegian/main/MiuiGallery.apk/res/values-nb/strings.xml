@@ -2,6 +2,7 @@
 <resources>
     <string name="accept">Aksepter</string>
     <string name="accept_or_deny">%1$s delte albumet %2$s med deg.</string>
+    <string name="actionbar_overflow_item_desc">Flere valg</string>
     <string name="add_automatically_alert_msg">Legge til bilder fra \"%1$s\" til dette albumet automatisk?</string>
     <string name="add_automatically_alert_title">Legg til bilder automatisk</string>
     <string name="add_secret_ensure_title">Skjul</string>
@@ -19,6 +20,7 @@
     <string name="add_to_secret_failed_with_reason">Kan ikke legge til i skjult album. %1$s.</string>
     <string name="add_to_secret_successful">Lagt til skjult album</string>
     <string name="add_to_share_album_not_delete">Kan ikke slette bilde fra Delt album</string>
+    <string name="added_to_favorites">Lagt til favoritter</string>
     <string name="added_to_favorites_tip">Lagt til i albummet \"Favoritter\"</string>
     <string name="adding">Legger til…</string>
     <string name="adding_recipients">Legger til mottakere…</string>
@@ -90,6 +92,7 @@
     <string name="app_name">Galleri</string>
     <string name="app_name_view_picture">Se bilder</string>
     <string name="app_name_view_video">Se videoer</string>
+    <string name="application_icon">App-ikon</string>
     <string name="apply">Bruk</string>
     <string name="assistant_page_label">Assistent</string>
     <string name="associate_face_album">Velg et album</string>
@@ -109,11 +112,13 @@
     <string name="baby_album_needs_auto_backup_tip">Kan ikke skru av automatisk sikkerhetskopiering for Baby-album</string>
     <string name="baby_album_new_photo_remind">Det er nye bilder i ditt Baby album.</string>
     <string name="baby_album_setting_title">Babyinfo</string>
+    <string name="baby_album_settings">Innstillinger for babyalbum</string>
     <string name="baby_album_sharer_accept_dialog_msg">"Kjære %1$s's %2$s,
 %3$s's %4$s har delt%5$s's album med deg"</string>
     <string name="baby_album_sharer_recommand_face">Legge til eksisterende bilder av %1$s?</string>
     <string name="baby_album_sharers_page_title">Del med familie</string>
     <string name="baby_birthday">Fødselsdag</string>
+    <string name="baby_face_desc">Babyalbum</string>
     <string name="baby_lock_wallpaper">Låseskjermens bakgrunn</string>
     <string name="baby_lock_wallpaper_cancelled">Byttet til standard bakgrunn på låst skjerm</string>
     <string name="baby_lock_wallpaper_save_settings_msg">Anvende nåværende innstillinger?</string>
@@ -125,6 +130,7 @@
     <string name="baby_nick_name">Kallenavn</string>
     <string name="baby_sexy">Kjønn</string>
     <string name="baby_suffix">baby</string>
+    <string name="back">Tilbake</string>
     <string name="backup_automatically_summary">Sikkerhetskopier bilder og videoer fra alle elementer til Mi Cloud. Da kan du enkelt se gjennom, sortere, endre, og dele bilder og videoer på alle dine elementer.</string>
     <string name="backup_automatically_title">Sikkerhetskopier automatisk</string>
     <string name="backup_battery_low_desc">Du kan fortsatt velge å fortsette sikkerhetskopieringen av elementer</string>
@@ -223,6 +229,8 @@
     <string name="cleaner_stop_scan">Stopp skanning</string>
     <string name="click_download_gif">Trykk for å laste ned GIF</string>
     <string name="click_top_right">Trykk på dette ikonet</string>
+    <string name="close">Lukk</string>
+    <string name="close_dialog_desc">Lukk dialogboksen</string>
     <string name="cloud_camera_display_name">Kamerabilder</string>
     <string name="cloud_guide_auto_backup_title">Velg album du vil sikkerhetskopiere</string>
     <string name="cloud_guide_login_title">Sikkerhetskopier bilder og videoer automatisk</string>
@@ -245,6 +253,7 @@
     <string name="cloudfolder_contain_invalidate_char">"Albumnavnet kan ikke inneholde '%s'"</string>
     <string name="cloudfolder_name_cannot_empty">Fyll inn et albumnavn</string>
     <string name="cloudfolder_name_reserved">Albumnavnet er reservert</string>
+    <string name="collage__talkback_effect">%d effekt</string>
     <string name="collage_choose">Velg</string>
     <string name="collage_margin_text">Marginer</string>
     <string name="collage_mirror">Speil</string>
@@ -267,12 +276,12 @@
     <string name="confirm">OK</string>
     <string name="confirm_download_video_message">Fullfør nedlasting av denne videoen for å begynne å se. Nedlastingen vil gjenopptas når Wi-Fi er tilgjengelig.</string>
     <string name="confirm_download_video_title">Last ned video</string>
-    <string name="confirm_face">Match</string>
+    <string name="confirm_face">Treff</string>
     <string name="confirm_hidden_recommend_group">OK</string>
     <string name="confirm_hidden_recommend_group_message">Når anbefalinger er skrudd av, kan du fremdeles bruke \"Flere personer som likner\"-valget</string>
     <string name="confirm_hidden_recommend_group_title">Ikke vis anbefalinger</string>
-    <string name="confirm_merge_face_albums">" "<Data> Slå sammen dette albumet med %s? </Data>" "</string>
-    <string name="confirm_merge_many_face_albums">" "<Data> Slå sammen disse albumene med %s </Data>" "</string>
+    <string name="confirm_merge_face_albums">" "<Data> Slå sammen disse albumene med %s? </Data>" "</string>
+    <string name="confirm_merge_many_face_albums">" "<Data> Slå sammen disse albumene med %s? </Data>" "</string>
     <string name="confirm_not_face">Ingen matcher</string>
     <string name="confirm_recommandation_face_is">" "<Data> Sikker på at dette er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Denne personen vil flyttes til \"%2$s\"-albumet. </Data>" "</string>
     <string name="confirm_recommandation_face_not">" "<Data> Sikker på at dette ikke er &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? </Data>" "</string>
@@ -282,6 +291,9 @@
     <string name="context_menu_add_contact">Legg til kontakter</string>
     <string name="context_menu_copy">Kopier</string>
     <string name="context_menu_copy_notice">Kopiert til utklipptavle</string>
+    <string name="correct_photo_time">Rett opp dato og tidspunkt for bildene</string>
+    <string name="correct_time_success">Rettet opp</string>
+    <string name="correct_time_tip">Retter opp dato og tidspunkt…</string>
     <string name="create_baby_album">Opprett et babyalbum</string>
     <string name="create_baby_album_dialog_msg">Opprette et album for \"%s\"?</string>
     <string name="create_baby_album_later_toast">Opprett når som helst et babyalbum under Innstillinger</string>
@@ -295,6 +307,7 @@
     <string name="custom_select_title_quickly_share">Del</string>
     <string name="custom_select_title_select_all">Velg alle</string>
     <string name="custom_select_title_select_item">Velg elementer</string>
+    <string name="debugging_info">Feilsøkingsinformasjonen har blitt generert. Trykk på OK for å åpne mappen.</string>
     <string name="debugging_tip">Genererer feilsøkingsdata</string>
     <string name="default_relation_name">Ny gruppe</string>
     <string name="define_by_user">Tilpasset</string>
@@ -424,6 +437,7 @@
     <string name="exit_share_in_process">Går ut av album \"%s\"…</string>
     <string name="exit_share_successfully">Gikk ut av %1$s</string>
     <string name="exit_video_play">Avslutt</string>
+    <string name="expand_desc">Mer</string>
     <string name="expand_people">Vis flere personer</string>
     <string name="face_album_detecting_tip">Et øyeblikk…</string>
     <string name="face_album_empty">"Ikke nok bilder til å gjenkjenne personer.
@@ -444,25 +458,29 @@ Ta flere bilder av vennene dine!"</string>
     <string name="face_name_edit">Rediger</string>
     <string name="face_name_input">Fyll inn navn</string>
     <string name="face_recommend">Anbefalinger</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Kunne ikke fullføre operasjon</string>
     <string name="fail_to_pick_email">Ugyldig e-postadresse</string>
     <string name="fail_to_sync_album">Kunne ikke synkronisere album. Sjekk din datatilkobling og prøv igjen.</string>
     <string name="family_member_invitation_text">Andre familiemedlemmer</string>
+    <string name="fancy_color_desc">Farger</string>
     <string name="fast_share_auto_render">Forskjønne</string>
     <string name="fast_share_auto_render_finish">Forskjønnet</string>
-    <string name="filter_bi_memory">Memory</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
+    <string name="filter_bi_memory">Minne</string>
     <string name="filter_bi_mono">Mono</string>
-    <string name="filter_bi_pink">Pink</string>
-    <string name="filter_bi_portrait">Portrait</string>
+    <string name="filter_bi_pink">Rosa</string>
+    <string name="filter_bi_portrait">Portrett</string>
     <string name="filter_bi_retro">Retro</string>
-    <string name="filter_bi_romantic">Romantic</string>
-    <string name="filter_bi_strong">Strong</string>
-    <string name="filter_bi_sunny">Sunny</string>
-    <string name="filter_bi_sweet">Sweet</string>
-    <string name="filter_bi_warm">Warm</string>
-    <string name="filter_bi_young">Young</string>
+    <string name="filter_bi_romantic">Romantisk</string>
+    <string name="filter_bi_strong">Sterk</string>
+    <string name="filter_bi_sunny">Solfylt</string>
+    <string name="filter_bi_sweet">Søt</string>
+    <string name="filter_bi_warm">Varm</string>
+    <string name="filter_bi_young">Ung</string>
     <string name="filter_category_film">Film</string>
     <string name="filter_category_food">Mat</string>
+    <string name="filter_category_master">Mester</string>
     <string name="filter_category_portrait">Portrett</string>
     <string name="filter_category_scene">Landskap</string>
     <string name="filter_film_blackwhite">B&amp;W</string>
@@ -479,17 +497,25 @@ Ta flere bilder av vennene dine!"</string>
     <string name="filter_food_dessert">Godteri</string>
     <string name="filter_food_fruit">Frukt</string>
     <string name="filter_food_latte">Latte</string>
-    <string name="filter_food_softdrink">Soda</string>
+    <string name="filter_food_softdrink">Brus</string>
     <string name="filter_food_wholemeal">Korn</string>
+    <string name="filter_master_hazy">Disig</string>
+    <string name="filter_master_mellow">Mild</string>
+    <string name="filter_master_memoire">Memoar</string>
+    <string name="filter_master_rise">Oppgang</string>
+    <string name="filter_master_somber">Dyster</string>
     <string name="filter_original">Ingen</string>
     <string name="filter_people_fairytale">Barn</string>
     <string name="filter_people_heart">Følelser</string>
     <string name="filter_people_japanese">Frisk</string>
     <string name="filter_people_maze">Labyrint</string>
     <string name="filter_people_mint">Mynte</string>
+    <string name="filter_people_movie">Film</string>
     <string name="filter_people_nature">Naturlig</string>
     <string name="filter_people_pink">Blush-farge</string>
+    <string name="filter_people_riddle">Gåte</string>
     <string name="filter_people_roman">Romanse</string>
+    <string name="filter_people_story">Historie</string>
     <string name="filter_scene_city">By</string>
     <string name="filter_scene_df">Tåke</string>
     <string name="filter_scene_koizora">Kjærlighet</string>
@@ -502,12 +528,14 @@ Ta flere bilder av vennene dine!"</string>
     <string name="finish_fill_baby">Opprett</string>
     <string name="flash_off">Ingen blitz</string>
     <string name="flash_on">Blitz ble brukt</string>
+    <string name="free_view_desc">3D view</string>
     <string name="gallery_setting">Innstillinger</string>
     <string name="gallery_sync_disable_toast">Synkronisering er av for Bildegalleriet</string>
     <string name="get_album_info_in_process">Får delte albumdetaljer…</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">GB</string>
     <string name="grant_permission_go_and_set">Sett</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Galleri trenger tilgang til 
 %s
  for å fungere som normalt, trykk \"Sett\" for å gå til Tillatelser."</string>
@@ -596,14 +624,14 @@ Ta flere bilder av vennene dine!"</string>
     <string name="main_discard_negative_btn">Forkast</string>
     <string name="main_discard_positive_btn">Lagre &amp; Avslutt</string>
     <string name="main_save_error_msg">Kunne ikke lagre endringene grunnet en feil</string>
-    <string name="mark_myself_default_name">Me</string>
-    <string name="mark_myself_suggestion_load_more">"That's not me"</string>
-    <string name="mark_myself_suggestion_title">"Select photos with your face
-to personalize Gallery"</string>
+    <string name="mark_myself_default_name">Meg</string>
+    <string name="mark_myself_suggestion_load_more">Det er ikke meg</string>
+    <string name="mark_myself_suggestion_title">"Velg bilder med ansiktet ditt
+for å tilpasse Bildegalleriet"</string>
     <string name="mark_operation_failed">Kunne ikke legge til</string>
     <string name="mark_operation_processing">Behandler…</string>
     <string name="mark_operation_succeeded">Lagt til</string>
-    <string name="mark_people_ignore_info_message">Press and hold photos of people to add them to groups</string>
+    <string name="mark_people_ignore_info_message">Trykk og hold bilder av mennesker for å legge dem til grupper</string>
     <string name="megabyteShort">MB</string>
     <string name="menu_album_new_album">Nytt album</string>
     <string name="menu_item_sort_date">Dato</string>
@@ -693,7 +721,7 @@ to personalize Gallery"</string>
     <string name="origin_image_name">original fil</string>
     <string name="origin_video_name">video</string>
     <string name="other_album">Andre album</string>
-    <string name="other_settings">Ekstra innstillinger</string>
+    <string name="other_settings">Tilleggsinnstillinger</string>
     <string name="owner_album_subtitle">Delt med %1$s mennesker</string>
     <string name="people_album_empty_title">Bilder kan sorteres etter personene som er i dem</string>
     <string name="people_jump_failed">Vent til bilder av mennesker er synkronisert med Mi Cloud og prøv igjen</string>
@@ -701,6 +729,7 @@ to personalize Gallery"</string>
     <string name="people_mark_mode_title_no_mark_name">Velg en person</string>
     <string name="people_page_label">Personer</string>
     <string name="people_page_unname">Uten navn</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Bilder av kjæledyr</string>
     <string name="petabyteShort">PB</string>
     <string name="photo">Bilder</string>
@@ -746,6 +775,27 @@ to personalize Gallery"</string>
     <string name="photo_editor_rotate">Roter</string>
     <string name="photo_editor_saving">Lagrer…</string>
     <string name="photo_editor_sticker">Klistremerke</string>
+    <string name="photo_editor_talkback_cancel">Avbryt</string>
+    <string name="photo_editor_talkback_confirm">Bekreft</string>
+    <string name="photo_editor_talkback_crop_16_9">Seksten til ni</string>
+    <string name="photo_editor_talkback_crop_1_1">Én til én</string>
+    <string name="photo_editor_talkback_crop_3_4">Tre til fire</string>
+    <string name="photo_editor_talkback_crop_4_3">Fire til tre</string>
+    <string name="photo_editor_talkback_crop_9_16">Ni til seksten</string>
+    <string name="photo_editor_talkback_crop_free">Gratis</string>
+    <string name="photo_editor_talkback_crop_mirror">Speil</string>
+    <string name="photo_editor_talkback_crop_original">Opprinnelig</string>
+    <string name="photo_editor_talkback_crop_rotate">Roter</string>
+    <string name="photo_editor_talkback_doodle_arrow">Pil</string>
+    <string name="photo_editor_talkback_doodle_circular">Sirkel</string>
+    <string name="photo_editor_talkback_doodle_line">Linje</string>
+    <string name="photo_editor_talkback_doodle_path">Børste</string>
+    <string name="photo_editor_talkback_doodle_rectangle">Rektangel</string>
+    <string name="photo_editor_talkback_effect">%d effekt</string>
+    <string name="photo_editor_talkback_eraser">Slett</string>
+    <string name="photo_editor_talkback_recently">Nylig brukt</string>
+    <string name="photo_editor_talkback_redo">Gjenta</string>
+    <string name="photo_editor_talkback_undo">Angre</string>
     <string name="photo_editor_text">Tekst</string>
     <string name="photo_page_save_uri_image_fail">Kunne ikke lagre til Bildegalleriet</string>
     <string name="photo_page_save_uri_image_ok">Bildet lagret til Bildegalleriet</string>
@@ -795,6 +845,8 @@ to personalize Gallery"</string>
     <string name="picker_title_specify_format_one">Velg %d bilde</string>
     <string name="picker_title_unlimit">Velg bilder</string>
     <string name="places_album_empty_title">Bilder kan sorteres etter plassering</string>
+    <string name="play_gif_desc">Spill av GIF</string>
+    <string name="play_video_desc">Spill av video</string>
     <string name="preparing_data">Et øyeblikk…</string>
     <string name="projection_cancel">Avbryt</string>
     <string name="projection_checkbox_text">Husk denne visningen</string>
@@ -820,6 +872,19 @@ to personalize Gallery"</string>
     <string name="recovery_merge_or_rename">Sammenslå album</string>
     <string name="recovery_merge_or_rename_message">Det finnes allerede et album med dette navnet. Sammenslå?</string>
     <string name="recovery_rename">Gi nytt navn</string>
+    <string name="refocus_desc">Fokuser på nytt</string>
+    <string name="refocus_discard_confirm_message">Save changes?</string>
+    <string name="refocus_discard_negative_btn">Discard</string>
+    <string name="refocus_discard_positive_btn">Save</string>
+    <string name="refocus_photo_not_support">"Can't apply blur to this photo"</string>
+    <string name="refocus_save_cancel">Cancel</string>
+    <string name="refocus_save_title">Select format</string>
+    <string name="refocus_save_to_photo">Save as image</string>
+    <string name="refocus_save_to_video">Save as video</string>
+    <string name="refocus_saving">Saving…</string>
+    <string name="refocus_title">Blur</string>
+    <string name="refocus_type_static">Blur level</string>
+    <string name="refocus_type_video">Light trails</string>
     <string name="relation_text_empty_alert">Legg til informasjon om forhold</string>
     <string name="relation_text_family">Familiemedlem</string>
     <string name="relation_text_father">Far</string>
@@ -906,6 +971,7 @@ to personalize Gallery"</string>
     <string name="search_setting_title">Finn bilder i galleri</string>
     <string name="search_syncing">Synkroniserer data, kom tilbake om en liten stund</string>
     <string name="search_title_album">Album</string>
+    <string name="search_title_app_screenshot">App-skjermbilder</string>
     <string name="search_title_history">Søkelogg</string>
     <string name="search_title_location">Steder</string>
     <string name="search_title_more">Mer</string>
@@ -914,6 +980,9 @@ to personalize Gallery"</string>
     <string name="search_title_recommend">Anbefalt</string>
     <string name="search_title_suggestion">Forslag</string>
     <string name="search_title_tag">Objekter</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Leter etter projektor …</string>
     <string name="secret_album_card_description">Den beste plassen for alle dine små hemmeligheter</string>
     <string name="secret_album_card_title">Prøv skjult album</string>
@@ -934,8 +1003,11 @@ to personalize Gallery"</string>
     <string name="see_ignore_faces">Se personer du har ignorert</string>
     <string name="select_item_face">"Er dette '%s'?"</string>
     <string name="select_origin_tip">Opprinnelig fil (%s)</string>
+    <string name="send_file_beautify_failed">Kunne ikke dele</string>
     <string name="send_multiple_files_hint_format">Send (%s)</string>
     <string name="send_public_url">Send album-URL</string>
+    <string name="send_secret_file_failed">Kunne ikke dele</string>
+    <string name="send_secret_file_space_low">Ikke nok lagringsplass</string>
     <string name="send_too_many_files_error">Kan bruke opptil %d elementer samtidig</string>
     <string name="set_as_baby_lock_wallpaper">Angi som bakgrunn på låst skjerm</string>
     <string name="set_as_wallpaper_description">Dette bildet er et miniatyrbilde. Laste ned det opprinnelige?</string>
@@ -951,6 +1023,7 @@ to personalize Gallery"</string>
     <string name="share">Del</string>
     <string name="share_album">Del album</string>
     <string name="share_album_needs_auto_upload_tip">Kan ikke skru av sikkerhetskopieringer for delte album</string>
+    <string name="share_album_qr_code">Albumets QR-kode</string>
     <string name="share_by_email_start">Del %1$s i bakgrunnen</string>
     <string name="share_by_email_successfully">Delt %1$s</string>
     <string name="share_public_url_text">Jeg har delt albumet %1$s med deg. Se det på %2$s</string>
@@ -1077,7 +1150,7 @@ to personalize Gallery"</string>
     <string name="video_editor_analyzing">Analyserer video…</string>
     <string name="video_editor_audio">Lyd</string>
     <string name="video_editor_audio_custom">Velg</string>
-    <string name="video_editor_audio_dynamic">Techno</string>
+    <string name="video_editor_audio_dynamic">Tekno</string>
     <string name="video_editor_audio_love">Romanse</string>
     <string name="video_editor_audio_memory">Minne</string>
     <string name="video_editor_audio_none">Ingen</string>
@@ -1095,7 +1168,7 @@ to personalize Gallery"</string>
     <string name="video_editor_encode_video_error">Kunne ikke kode video</string>
     <string name="video_editor_fatal_error">Ukjent feil</string>
     <string name="video_editor_filter">Filter</string>
-    <string name="video_editor_filter_black_and_white">B&amp;W</string>
+    <string name="video_editor_filter_black_and_white">Svart og hvitt</string>
     <string name="video_editor_filter_blue">Blå</string>
     <string name="video_editor_filter_cloud">Kald</string>
     <string name="video_editor_filter_gothic">Grønn</string>
@@ -1130,13 +1203,15 @@ to personalize Gallery"</string>
     <string name="video_editor_text_edit_start">Tittel</string>
     <string name="video_editor_text_input_empty_tips">Det ser ut som du ikke har fylt inn tekst enda</string>
     <string name="video_editor_text_preview_text">Aa</string>
-    <string name="video_editor_trim">Trim</string>
+    <string name="video_editor_trim">Klipp</string>
     <string name="video_editor_unsupport_audio_file">Lydfilen støttes ikke</string>
     <string name="video_err">Kan ikke spille av video</string>
     <string name="video_not_exist">Videoen finnes ikke</string>
     <string name="view_by_gallery_tip">MIUI-Bildegalleri</string>
     <string name="view_face_album">Se album</string>
+    <string name="view_more_face_desc">Vis flere personer</string>
     <string name="view_queuing_status">Sjekk status</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Velkommen til Mi Cloud</string>
     <string name="where_is_barcode">Hvor er QR-koden?</string>
     <string name="who_is_this">Hvem er det?</string>

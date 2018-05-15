@@ -16,7 +16,7 @@
     <string name="gigabyteShort">GB</string>
     <string name="terabyteShort">TB</string>
     <string name="petabyteShort">PB</string>
-    <string name="update_date_format">MM/dd/yyyy</string>
+    <string name="update_date_format">dd/MM/yyyy</string>
     <string name="activity_title_garbage_cleanup">Renser</string>
     <string name="activity_title_scanfinish">Skanning fullført</string>
     <string name="empty_title_photos">Ingen bilder funnet</string>
@@ -90,6 +90,7 @@
     <string name="hints_apk_header_left">Pakker</string>
     <string name="hints_residual_header_left">Rester</string>
     <string name="hints_memory_header_left">Minne</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Store filer: %d</string>
     <string name="hints_installed_apps_header_left">Installerte apper: %d</string>
     <string name="toast_resolve_apk_error">Løs apk-feil</string>
@@ -127,8 +128,8 @@
     <string name="msg_update_error_code_no_newer_db">Cleaner er oppdatert</string>
     <string name="msg_update_error_code_already_running">Oppdaterer…</string>
     <string name="msg_update_error_code_network_error">Kan ikke koble til nettverket</string>
-    <string name="msg_update_error_code_unknown_error">Ukjent feil</string>
-    <string name="msg_cleanup_db_update_time_unknown">Siste oppdatering ukjent</string>
+    <string name="msg_update_error_code_unknown_error">Servers are busy. Wait a minute or two and try again.</string>
+    <string name="msg_cleanup_db_update_time_unknown">Last update: Unknown</string>
     <string name="item_title_process_mode">Velg en handling</string>
     <string name="clean_content_zero">Ingen</string>
     <string name="clean_content_one">1 element</string>
@@ -265,12 +266,13 @@
     <string name="hints_cleanfinish">Opprensing fullført</string>
     <string name="hints_num">0</string>
     <string name="mainbtn_text_quick_cleanup">Rens opp%s</string>
+    <string name="mainbtn_text_no_trash">Hopp over</string>
     <string name="mainbtn_text_quick_cleanup_default">Rydde opp</string>
     <string name="pref_title_open_optimizer_memory_scan">Skann app-minne</string>
     <string name="toast_select_white_need_remove">Velg elementer som skal fjernes</string>
     <string name="network_not_available">Kan ikke koble til nettverket</string>
     <string name="no_network_btn">Prøv igjen</string>
-    <string name="name_debuglog_dir">Bsp feilsøkingslogg</string>
+    <string name="name_debuglog_dir">BSP debug log</string>
     <string name="just_now">Akkurat nå</string>
     <string name="yesterday">I går</string>
     <string name="month_day_format">d. MMM</string>
@@ -296,6 +298,7 @@
     <string name="downloading">Laster ned</string>
     <string name="installing">Installering</string>
     <string name="start_install">Installer nå</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Åpne i nettleser</string>
     <string name="title_share_link">Del lenke</string>
     <string name="connecting">Kobler til…</string>
@@ -495,4 +498,25 @@
     <string name="auto_clean_time_three_day">Hver 3. dag</string>
     <string name="auto_clean_time_seven_day">Hver 7. dag</string>
     <string name="auto_clean_time_fifteen_day">Hver 15. dag</string>
+    <string name="pref_category_title_auto_clean_config_settings">Automatiske oppryddinger</string>
+    <string name="pref_title_auto_clean">Rydd opp automatisk</string>
+    <string name="pref_title_auto_clean_operation">Oppryddingsmetode</string>
+    <string name="pref_title_auto_clean_trigger">Rydd opp i lagringsplassen</string>
+    <string name="auto_clean_operation_dialog_title">Oppryddingsmetode</string>
+    <string name="auto_clean_operation_clean_and_alert">Påminn og rydd opp</string>
+    <string name="auto_clean_operation_just_clean">Bare rydd opp</string>
+    <string name="auto_clean_trigger_dialog_title">Rydd opp i lagringsplassen</string>
+    <string name="auto_clean_trigger_percent_ninety">Når 90 % er fylt opp</string>
+    <string name="auto_clean_trigger_percent_eighty">Når 80 % er fylt opp</string>
+    <string name="auto_clean_trigger_percent_sixty">Når 60 % er fylt opp</string>
+    <string name="auto_clean_notification_title">Minn på å rengjøre</string>
+    <string name="auto_clean_notification_content">%s søppel er rengjort</string>
+    <string name="guide_secure_dialog_title">Optimaliser ytelsen</string>
+    <string name="guide_secure_dialog_message">Optimaliseringspoengsummen til enheten din er lavere enn 80 poeng. Optimalisere nå?</string>
+    <string name="guide_secure_dialog_positive">Optimaliser</string>
+    <string name="guide_secure_dialog_negative">Avbryt</string>
+    <string name="guide_virus_dialog_title">Antivirusskann</string>
+    <string name="guide_virus_dialog_message">Skanning av apper og installasjonspakker beskytter enheten din fra virus og ondsinnet programvare. Vil du skanne enheten din nå?</string>
+    <string name="guide_virus_dialog_positive">Skann</string>
+    <string name="guide_virus_dialog_negative">Avbryt</string>
 </resources>

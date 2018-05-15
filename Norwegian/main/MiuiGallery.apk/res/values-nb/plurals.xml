@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="add_secret_ensure_message">
-        <item quantity="other">Hide these files?</item>
+        <item quantity="other">Skjule disse filene?</item>
         <item quantity="one">Skjule disse filene?</item>
     </plurals>
     <plurals name="add_to_album_cloud_photo_count_tip">
         <item quantity="other">La til %d bilder fra cloud, skru av \"Vis kun lokale album\" for å vise dem.</item>
-        <item quantity="one">La til %d bilder fra cloud, skru av \"Vis kun lokale album\" for å vise dem.</item>
+        <item quantity="one">La til %d bilde fra cloud, skru av \"Vis kun lokale album\" for å vise dem.</item>
     </plurals>
     <plurals name="add_to_album_failed_with_reason_and_count">
         <item quantity="other">%2$d elementer kan ikke legges til album. %1$s.</item>
@@ -22,7 +22,7 @@
     </plurals>
     <plurals name="age_month">
         <item quantity="other">%d måneder</item>
-        <item quantity="one">%d måneder</item>
+        <item quantity="one">%d måned</item>
     </plurals>
     <plurals name="age_year">
         <item quantity="other">%d år</item>
@@ -61,8 +61,8 @@
         <item quantity="one">%d bilde og video | Satt på pause</item>
     </plurals>
     <plurals name="backuping_desc_gprs">
-        <item quantity="other">%1$d photos and videos | %2$s</item>
-        <item quantity="one">%1$d bilder og videoer | %2$s</item>
+        <item quantity="other">%1$d bilder og videoer | %2$s</item>
+        <item quantity="one">%1$d bilde og video | %2$s</item>
     </plurals>
     <plurals name="backuping_desc_normal">
         <item quantity="other">%1$d bilder og videoer</item>
@@ -77,8 +77,8 @@
         <item quantity="one">%d video</item>
     </plurals>
     <plurals name="custom_select_title_items_selected">
-        <item quantity="other">%d items selected</item>
-        <item quantity="one">%d elementer valgt</item>
+        <item quantity="other">%d elementer valgt</item>
+        <item quantity="one">%d element valgt</item>
     </plurals>
     <plurals name="delete_media_from_all_devices_and_cloud_msg">
         <item quantity="other">Slette %d enheter fra alle enheter og Mi Cloud?</item>
@@ -86,7 +86,7 @@
     </plurals>
     <plurals name="delete_media_from_local">
         <item quantity="other">Slette %d elementer?</item>
-        <item quantity="one">Slette %d elementer?</item>
+        <item quantity="one">Slette %d element?</item>
     </plurals>
     <plurals name="delete_media_from_this_album_and_cloud_msg">
         <item quantity="other">Slette %d enheter fra dette albummet og Mi Cloud?</item>
@@ -94,35 +94,35 @@
     </plurals>
     <plurals name="delete_photo_from_all_devices_and_cloud_msg">
         <item quantity="other">Slette %d bilder fra alle enheter og Mi Cloud?</item>
-        <item quantity="one">Slette %d bilder fra alle elementer og Mi Cloud?</item>
+        <item quantity="one">Slette bilde fra alle enheter og Mi Cloud?</item>
     </plurals>
     <plurals name="delete_photo_from_local">
         <item quantity="other">Slette %d bilder?</item>
-        <item quantity="one">Slette %d bilder?</item>
+        <item quantity="one">Slette dette bildet?</item>
     </plurals>
     <plurals name="delete_photo_from_this_album_and_cloud_msg">
         <item quantity="other">Slette %d bilder fra dette albumet og Mi Cloud?</item>
-        <item quantity="one">Delete this photo from this album and Mi Cloud?</item>
+        <item quantity="one">Slette denne bilder fra dette albumet og Mi Cloud?</item>
     </plurals>
     <plurals name="delete_video_from_all_devices_and_cloud_msg">
         <item quantity="other">Slette %d videoer fra alle enheter og Mi Cloud?</item>
-        <item quantity="one">Slette %d video fra alle enheter og Mi Cloud?</item>
+        <item quantity="one">Slette video fra alle enheter og Mi Cloud?</item>
     </plurals>
     <plurals name="delete_video_from_local">
         <item quantity="other">Slette %d videoer?</item>
-        <item quantity="one">Slette %d videoer?</item>
+        <item quantity="one">Slette denne videoen?</item>
     </plurals>
     <plurals name="delete_video_from_this_album_and_cloud_msg">
         <item quantity="other">Slette %d videoer fra dette albummet og Mi Cloud?</item>
         <item quantity="one">Slette denne videon fra dette albumet og Mi Cloud?</item>
     </plurals>
     <plurals name="download_error">
-        <item quantity="other">"Couldn't download %1$d files"</item>
+        <item quantity="other">Kunne ikke laste ned %1$d filer</item>
         <item quantity="one">Kunne ikke laste ned %1$d filer</item>
     </plurals>
     <plurals name="download_retry_message">
-        <item quantity="other">"Couldn't download %1$d files, check network connection and try again"</item>
-        <item quantity="one">Kunne ikke laste ned %1$d files, sjekk nettverket og prøv igjen</item>
+        <item quantity="other">Kunne ikke laste ned %1$d filer, sjekk nettverket og prøv igjen</item>
+        <item quantity="one">Kunne ikke laste ned %1$d fil, sjekk nettverket og prøv igjen</item>
     </plurals>
     <plurals name="face_count">
         <item quantity="other">Totalt %d bilder</item>
@@ -133,8 +133,8 @@
         <item quantity="one">Behandler bilde…</item>
     </plurals>
     <plurals name="fast_share_auto_render_failed">
-        <item quantity="other">"Skipped %1$d photos which couldn't be rendered."</item>
-        <item quantity="one">Hoppet over %1$d bilder som ikke kunne gjengis.</item>
+        <item quantity="other">Hoppet over %1$d bilder som ikke kunne gjengis.</item>
+        <item quantity="one">Hoppet over 1 bilde som ikke kunne gjengis.</item>
     </plurals>
     <plurals name="file_count_format">
         <item quantity="other">Totalt %1$d elementer</item>
@@ -181,8 +181,8 @@
         <item quantity="one">De valgte bildene er ikke på enheten. De vil lastes ned.</item>
     </plurals>
     <plurals name="picker_all_origin_need_download">
-        <item quantity="other">Valgte bilder (%d MB) er ikke på enheten. Laste dem ned ved bruk av mobildata?</item>
-        <item quantity="one">Valgte bilde (%d MB) er ikke på enheten. Laste dem ned ved bruk av mobildata?</item>
+        <item quantity="other">Valgte bilder (%dMB) er ikke på enheten. Laste dem ned ved bruk av mobildata?</item>
+        <item quantity="one">Valgte bilde (%dMB) er ikke på enheten. Laste dem ned ved bruk av mobildata?</item>
     </plurals>
     <plurals name="picker_cancel_confirm_message">
         <item quantity="other">Avbryte nedlasting av %d gjenstående bilder?</item>
@@ -209,8 +209,8 @@
         <item quantity="one">Hoppet over 1 bilde som ikke er på enheten.</item>
     </plurals>
     <plurals name="quickly_discovery_message_format">
-        <item quantity="other">Found %1$d new photos</item>
-        <item quantity="one">Fant %1$d nye bilder</item>
+        <item quantity="other">Fant %1$d nye bilder</item>
+        <item quantity="one">Fant 1 nye bilde</item>
     </plurals>
     <plurals name="remind_face_recommend_confirm_text">
         <item quantity="other">Totalt %d bilder</item>
@@ -221,8 +221,8 @@
         <item quantity="one">%2$d element kan ikke fjernes fra skjult album. %1$s.</item>
     </plurals>
     <plurals name="search_feedback_done_mark_and_contribute_false_negative">
-        <item quantity="other">Added %1$d photos to \"%2$s\" and added to the database.</item>
-        <item quantity="one">La til %1$d bilder i \"%2$s\" og lagt til i databasen.</item>
+        <item quantity="other">La til %1$d bilder i \"%2$s\" og lagt til i databasen.</item>
+        <item quantity="one">La til %1$d bilde i \"%2$s\" og lagt til i databasen.</item>
     </plurals>
     <plurals name="search_feedback_done_mark_and_contribute_false_positive">
         <item quantity="other">Fjernet %1$d bilder fra \"%2$s\" og lagt til i databasen.</item>
@@ -238,26 +238,26 @@
     </plurals>
     <plurals name="send_processing_files_error">
         <item quantity="other">Kunne ikke dele. Behandler fortsatt %d bilder…</item>
-        <item quantity="one">Kunne ikke dele. Behandler fortsatt %d bilder…</item>
+        <item quantity="one">Kunne ikke dele. Behandler fortsatt %d bilde…</item>
     </plurals>
     <plurals name="slim_complete_photo_count">
         <item quantity="other">Optimaliserte %d bilder</item>
         <item quantity="one">Optimaliserte %d bilde</item>
     </plurals>
     <plurals name="slim_exit_dialog_message">
-        <item quantity="other">"%d photos haven't been optimized. Stop now?"</item>
-        <item quantity="one">%d bilder ble ikke optimalisert. Stopp nå?</item>
+        <item quantity="other">%d bilder ble ikke optimalisert. Stopp nå?</item>
+        <item quantity="one">%d bilde ble ikke optimalisert. Stopp nå?</item>
     </plurals>
     <plurals name="slim_remain_photo_count">
         <item quantity="other">%d bilder gjenstår</item>
         <item quantity="one">%d bilde gjenstår</item>
     </plurals>
     <plurals name="sync_error_title">
-        <item quantity="other">"Haven't backed up %d photos and videos"</item>
-        <item quantity="one">Har ikke sikkerhetskopiert %d bilder og videoer</item>
+        <item quantity="other">Har ikke sikkerhetskopiert %d bilder og videoer</item>
+        <item quantity="one">Har ikke sikkerhetskopiert %d bilde og video</item>
     </plurals>
     <plurals name="sync_total_count">
-        <item quantity="other">%d items</item>
-        <item quantity="one">%d elementer</item>
+        <item quantity="other">%d elementer</item>
+        <item quantity="one">%d element</item>
     </plurals>
 </resources>

@@ -197,6 +197,9 @@
     <string name="toast_only_wifi_download">Koble til Wi-Fi for å laste ned dette elementet</string>
     <string name="total_speedup">Hastighetsøkning (total)</string>
     <string name="version">Versjon %s</string>
-    <string name="app_downloads">%sdownloads</string>
-    <string name="dialog_confirm_delete_downloads_message">Delete selected tasks?</string>
+    <string name="get_data_failed">Kunne ikke hente informasjon. Vent et minutt eller to og prøv igjen.</string>
+    <string name="load_finish_hint">Det var alt for nå.</string>
+    <string name="loading">Et øyeblikk…</string>
+    <string name="net_error">Koble til nettverket og prøv igjen</string>
+    <string name="rank_app_list">Mest populære nedlastinger</string>
 </resources>

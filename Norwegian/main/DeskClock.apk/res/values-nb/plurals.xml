@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="alarm_alert_snooze_set">
-        <item quantity="other">Snoozing for %d minutes.</item>
-        <item quantity="one">Snoozing i %d minutter.</item>
+        <item quantity="other">Snoozing i %d minutter.</item>
+        <item quantity="one">Snoozing i %d minutt.</item>
     </plurals>
     <plurals name="auto_silence_summary">
-        <item quantity="other">Alarms will silence after %d minutes</item>
-        <item quantity="one">Alarm vil bli lødløs etter %d minutter</item>
+        <item quantity="other">Alarm vil bli lødløs etter %d minutter</item>
+        <item quantity="one">Alarm vil bli lødløs etter %d minutt</item>
     </plurals>
     <plurals name="delete_alarm_confirm">
-        <item quantity="other">Delete the selected alarms?</item>
-        <item quantity="one">Slette de valgte alarmene?</item>
+        <item quantity="other">Slette de valgte alarmene?</item>
+        <item quantity="one">Delete this alarm?</item>
     </plurals>
     <plurals name="delete_timezone_confirm">
         <item quantity="other">Delete the selected timezone?</item>
         <item quantity="one">Slette den valgte tidssonen?</item>
     </plurals>
     <plurals name="snooze_message">
-        <item quantity="other">Snooze for %d mins</item>
-        <item quantity="one">Snooze i %d min</item>
+        <item quantity="other">Snooze i %d min</item>
+        <item quantity="one">Snooze for %d min</item>
     </plurals>
     <plurals name="timer_item_duration_display_minutes">
         <item quantity="other">%1$d minutter</item>

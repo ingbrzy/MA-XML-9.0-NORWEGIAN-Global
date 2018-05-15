@@ -94,7 +94,7 @@ For å aktivere kontoen må du følge
     <string name="passport_email">E-postadresse</string>
     <string name="passport_vcode_prompt_long">Tast inn bekreftelseskode</string>
     <string name="passport_input_phone_hint">Skriv inn telefonnummer</string>
-    <string name="passport_input_voice_captcha_hint">Enter voice verification code</string>
+    <string name="passport_input_voice_captcha_hint">Tast inn stemmeverifiseringskode</string>
     <string name="passport_error_empty_username">Angi konto-ID</string>
     <string name="passport_error_invalid_phone_num">Ugyldig telefonnummer</string>
     <string name="passport_error_empty_phone_num">Skriv inn telefonnummer</string>
@@ -202,7 +202,7 @@ For å aktivere kontoen må du følge
     <string name="passport_get_innetdate_msg">&lt;font color=Red>De ser ut til at&lt;/font> nummeret %s har blitt resirkulert av operatøren. Sjekke når nummere kom på nett?</string>
     <string name="passport_get_innetdate_agree">Kontroller</string>
     <string name="passport_get_innetdate_disagree">Nei</string>
-    <string name="passport_extra_gdpr_license">Creating your Mi Account means that you agree that Xiaomi will collect, process, and use your personal data, including verification data (e.g., verification codes), Second space data (e.g., information about the ways you use Second space, IDs used in First and Second spaces), and other data specified in our Privacy Policy. Refer to our Privacy Policy to learn how we process and use personal data.</string>
+    <string name="passport_extra_gdpr_license">Ved å opprette din Mi konto, godtar du at Xiaomi vil samle inn, behandle og bruke dine personlige data, inkludert verifiseringsdata (f.eks. verifiseringskoder), data knyttet til Andre område (f.eks. informasjon om hvordan du bruker Andre område, ID-er brukt i Første og Andre områdene), og andre typer data som er angitt i personvernerklæringen vår. Les vår personvernerklæring for å lære mer om hvordan vi behandler og bruker personlige data.</string>
     <string name="search_app_name">Mi-konto</string>
     <string name="search_mi_account">Mi-konto</string>
     <string name="search_mi_account_key_words">Mi Cloud,Kontoinnstilling,Mi Pay Info,Logg av</string>
@@ -416,10 +416,10 @@ For å aktivere kontoen må du følge
     <string name="find_device_prompt_message">Enheten er sperret. Melding: %1$s.</string>
     <string name="find_device_activate_account">Aktiver konto</string>
     <string name="login_check_find_device">Henter enhetens sikkerhetsinformasjon…</string>
-    <string name="unlock_help_notice">"Help:
-1. If you forgot your password, go to id.mi.com to reset it.
-2. If you can't reset your password or somebody locked your device, go to i.mi.com to unlock it.
-3. Your unlock number: %s"</string>
+    <string name="unlock_help_notice">"Hjelp:
+· Hvis du har glemt passordet ditt, gå til id.mi.com for å tilbakestille det.
+2. Hvis du ikke kan tilbakestille passordet eller noen har låst enheten din, gå til i.mi.com for å låse den opp.
+3 Ditt opplåsningsnummer: %s"</string>
     <string name="login_find_device_bind">Denne enheten er knyttet til eksisterende Mi-konto-ID (%s).</string>
     <string name="find_device_locked_account_phone" formatted="false">%s, tilknyttet telefonnummer: %s</string>
     <string name="find_device_locked_account_email" formatted="false">%s, tilknyttet e-postadresse: %s</string>
@@ -451,7 +451,7 @@ For å aktivere kontoen må du følge
     <string name="mipay_identity">ID-bekreftelse</string>
     <string name="mipay_indentity_done">Verifisert</string>
     <string name="mipay_identitiy_no">Ikke verifisert</string>
-    <string name="account_token_expired_title">"Couldn't authenticate"</string>
+    <string name="account_token_expired_title">Kunne ikke autentisere</string>
     <string name="account_token_expired_msg">"Bekreftelseskoden er utløpt, start på nytt eller logg ut
  Din konto-ID: %s"</string>
     <string name="bind_safe_phone_msg">Legg til telefonnummeret ditt for å kunne logge på Mi-kontoen din neste gang.</string>

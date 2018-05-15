@@ -33,7 +33,7 @@
     <string name="attach_sound">Lyd</string>
     <string name="attach_subject">Emne</string>
     <string name="attach_take_photo">Ta bilde</string>
-    <string name="attach_transaction">Send money</string>
+    <string name="attach_transaction">Overfør penger</string>
     <string name="attach_video">Video</string>
     <string name="audio_download_failed">Kunne ikke laste ned lyd</string>
     <string name="audio_message_expired">Denne talemeldinger har utløpt.</string>
@@ -51,6 +51,16 @@
     <string name="bookmark_confirm_delete_message">Fjern stjerne fra valgte meldinger?</string>
     <string name="bookmark_empty">Ingen stjernemerkede meldinger</string>
     <string name="bookmark_list_title">Stjernemerket</string>
+    <string name="button_emoji_creature">Creature Emoji</string>
+    <string name="button_emoji_lifestyle">Lifestyle Emoji</string>
+    <string name="button_emoji_smiley">Smiley Emoji</string>
+    <string name="button_emoji_symbol">Symbol Emoji</string>
+    <string name="button_emoji_text">Text Emoji</string>
+    <string name="button_fold">fold</string>
+    <string name="button_next_slide">Next</string>
+    <string name="button_pre_slide">Previous</string>
+    <string name="button_resend_message">Resend</string>
+    <string name="button_unfold">Unfold</string>
     <string name="call_sender">Ring avsender</string>
     <string name="cannot_add_picture_and_video">Kan ikke legge til video og bilde i ett lysbilde.</string>
     <string name="cannot_add_slide_anymore">Kan ikke legge til flere lysbilder.</string>
@@ -84,8 +94,8 @@
     <string name="confirm_export_dialog_description">Tidligere samtaler med denne kontakten vil ikke lenger være skjulte.</string>
     <string name="confirm_export_dialog_title">Fjern fra private kontakter</string>
     <string name="confirm_no_block_positive">Fjern blokkering</string>
-    <string name="confirm_no_block_title">"Unblock and restore all messages sent from this number?
-(The number will be added to exceptions.)"</string>
+    <string name="confirm_no_block_title">"Fjerne blokkering og gjenopprette alle meldinger som er sendt fra dette nummeret?
+(Nummeret vil legges til unntak.)"</string>
     <string name="confirm_rate_limit">Et stort antall multimediemeldinger blir sendt.</string>
     <string name="confirm_restore_all_title">Gjenopprette alle meldinger sendt fra dette nummeret?</string>
     <string name="confirm_restore_checkbox">Gjenopprett blokkerte meldinger</string>
@@ -138,6 +148,7 @@
     <string name="download_later">Kan ikke laste ned for øyeblikket. Prøv igjen senere.</string>
     <string name="downloading">Laster ned</string>
     <string name="downloading_file_can_not_play">Vent til opptaket er ferdig nedlastet</string>
+    <string name="draft">Draft</string>
     <string name="duration_not_a_number">Varighet må være et tall</string>
     <string name="duration_sec">Varighet (%s sek)</string>
     <string name="duration_selector_title">Varighet for lysbilde</string>
@@ -152,7 +163,7 @@
     <string name="enter_edit_mode">Rediger meldinger</string>
     <string name="error_code_label">"Feilkode: "</string>
     <string name="error_state">Inkonsekvent status</string>
-    <string name="error_state_text">Status på tråder og mottakere er inkonsekvent. Vennligst registrer en feilrapport, og rapporter det via http://go/droidanizer</string>
+    <string name="error_state_text">Status på tråder og mottakere er inkonsekvent. Vennligst registrer en feilrapport, og rapporter den via http://go/droidanizer</string>
     <string name="error_timed_msg">Ugyldig tid.</string>
     <string name="ex_type_guide">Informasjon</string>
     <string name="ex_type_mx">Mi Message</string>
@@ -168,7 +179,6 @@
     <string name="failed_to_resize_image">Ikke endret størrelse på bilde.</string>
     <string name="fake_cell_alert_hint">Det ser ut som denne meldingen ble sendt fra et annet telefonnummer enn det som vises. Vær forsiktig med SMS-meldingen som inneholder økonomiske forespørsler.</string>
     <string name="fake_cell_checking_hint">Sjekker sikkerhet…</string>
-    <string name="fake_cell_detection_entry">Finner falsk basestasjon</string>
     <string name="fake_cell_safe_hint">Denne meldingen er sikker</string>
     <string name="fake_cell_timeout_hint">Kunne ikke sjekke sikkerhet</string>
     <string name="favorite_at_time">Spilt %1s</string>
@@ -179,6 +189,7 @@
     <string name="file_size">Størrelse:</string>
     <string name="file_title">Navn:</string>
     <string name="file_width_height">Størrelse:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Ny melding</string>
     <string name="forward_from">Videresend fra:</string>
     <string name="forward_prefix">"VS: "</string>
@@ -369,7 +380,7 @@
     <string name="pref_cell_broadcast">Cell Broadcast</string>
     <string name="pref_collapse_sp_messages_summary">Grupper automatisk SMS-varslinger sammen</string>
     <string name="pref_delivery_ringtone">Leveringslyd</string>
-    <string name="pref_edit_smsc_address">Short Message service center (SMSC)</string>
+    <string name="pref_edit_smsc_address">SMS-senternummer (SMSC)</string>
     <string name="pref_forward_title">Videresend</string>
     <string name="pref_hide_verification_code_summary">Skjul automatisk engangspassord i meldingsvarslinger på sikret låseskjerm</string>
     <string name="pref_messages_to_save">Velg antall meldinger som skal lagres</string>
@@ -447,7 +458,7 @@
     <string name="privacy_password_title4">Passord oppdatert</string>
     <string name="private_message">Private meldinger</string>
     <string name="private_new_notification">Meldingsvarslinger</string>
-    <string name="private_protect">Passord</string>
+    <string name="private_protect">Privacy protection</string>
     <string name="private_settings">Innstillinger for private meldinger</string>
     <string name="processing">Arbeider…</string>
     <string name="prvate_contact">Private kontakter</string>
@@ -512,7 +523,7 @@
     <string name="select_local_audio">Velg lyd</string>
     <string name="select_local_video">Velg video</string>
     <string name="select_message_send_sim">Velg SIM-kort</string>
-    <string name="select_phone_number">Select phone number</string>
+    <string name="select_phone_number">Velg telefonnummer</string>
     <string name="select_recipient">Velg mottakere</string>
     <string name="select_sim">Velg SIM-kort</string>
     <string name="select_top_text">Tekst øverst</string>
@@ -527,6 +538,7 @@
     <string name="send_signature_confirm_dialog_title">Send melding</string>
     <string name="send_sms">Send melding</string>
     <string name="send_to">Til:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Sendt: %1s</string>
     <string name="sent_label">"Sendt: "</string>
     <string name="service_message_not_found">Meldingen utløp eller er utilgjengelig</string>
@@ -656,4 +668,5 @@ Forsøk gjort: %s."</string>
     <string name="wild_msg_title">Velg telefonnumre som skal synkroniseres</string>
     <string name="yes">OK</string>
     <string name="yesterday">I går</string>
+    <string name="fake_cell_detection_entry">Finner falsk basestasjon</string>
 </resources>

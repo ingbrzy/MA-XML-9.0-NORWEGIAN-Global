@@ -12,7 +12,7 @@
         <item>Frakoblet</item>
         <item>Mislykket</item>
         <item>Blokkert</item>
-        <item>Unngår dårlig forbindelse midlertidig</item>
+        <item>Unngår midlertidig en dårlig forbindelse</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
         <item></item>
@@ -20,13 +20,13 @@
         <item>Kobler til %1$s…</item>
         <item>Autentiserer med %1$s…</item>
         <item>Henter IP-adresse fra %1$s…</item>
-        <item>Tilkoblet til %1$s</item>
+        <item>Koblet til %1$s</item>
         <item>Suspendert</item>
         <item>Kobler fra %1$s…</item>
         <item>Frakoblet</item>
         <item>Mislykket</item>
         <item>Blokkert</item>
-        <item>Unngår dårlig forbindelse midlertidig</item>
+        <item>Unngår midlertidig en dårlig forbindelse</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
         <item>Aldri sjekk</item>
@@ -34,120 +34,125 @@
         <item>Sjekk alltid</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
-        <item>Alri bruk HDCP-sjekk</item>
-        <item>Bruk kun HDCP-sjekk etter DRM-innhold</item>
+        <item>Aldri bruk HDCP-sjekk</item>
+        <item>Bruk bare HDCP når det sjekkes etter DRM-innhold</item>
         <item>Bruk alltid HDCP-sjekk</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
-        <item>AVRCP 1.4 (standard)</item>
+        <item>AVRCP 1.4 (Standard)</item>
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
     </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp14</item>
+        <item>avrcp15</item>
+        <item>avrcp16</item>
+    </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
-        <item>Bruk systemvalg (standard)</item>
+        <item>Bruk systemvalg (Standard)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>aptX</item>
         <item>aptX HD</item>
         <item>LDAC</item>
-        <item>Slå på valgfrie kodeker</item>
-        <item>Slå av valgfrie kodeker</item>
+        <item>Aktiver valgfrie kodeker</item>
+        <item>Deaktiver valgfrie kodeker</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
-        <item>Bruk systemvalg (standard)</item>
+        <item>Bruk systemvalg (Standard)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>aptX</item>
         <item>aptX HD</item>
         <item>LDAC</item>
-        <item>Slå på valgfrie kodeker</item>
-        <item>Slå av valgfrie kodeker</item>
+        <item>Aktiver valgfrie kodeker</item>
+        <item>Deaktiver valgfrie kodeker</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Bruk systemvalg (standard)</item>
+        <item>Bruk systemvalg (Standard)</item>
         <item>44,1 kHz</item>
         <item>48,0 kHz</item>
         <item>88,2 kHz</item>
         <item>96,0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Bruk systemvalg (standard)</item>
+        <item>Bruk systemvalg (Standard)</item>
         <item>44,1 kHz</item>
         <item>48,0 kHz</item>
         <item>88,2 kHz</item>
         <item>96,0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Bruk systemvalg (standard)</item>
-        <item>16 bits/sample</item>
-        <item>24 bits/sample</item>
-        <item>32 bits/sample</item>
+        <item>Bruk systemvalg (Standard)</item>
+        <item>16 bit/prøve</item>
+        <item>24 bit/prøve</item>
+        <item>32 bit/prøve</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Bruk systemvalg (standard)</item>
-        <item>16 bits/sample</item>
-        <item>24 bits/sample</item>
-        <item>32 bits/sample</item>
+        <item>Bruk systemvalg (Standard)</item>
+        <item>16 bit/prøve</item>
+        <item>24 bit/prøve</item>
+        <item>32 bit/prøve</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Bruk systemvalg (standard)</item>
+        <item>Bruk systemvalg (Standard)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Bruk systemvalg (standard)</item>
+        <item>Bruk systemvalg (Standard)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
-        <item>Optimalisert for lydkvalitet (990 kbps / 909 kbps)</item>
-        <item>Balansert lyd- og tilkoblingskvalitet (660 kbps/606kbps)</item>
-        <item>Optimalisert for tilkoblingskvalitet (330 kbps / 303 kbps)</item>
-        <item>Beste forsøk (tilpasset bithastighet)</item>
+        <item>Optimalisert for lydkvalitet (990 kbps/909 kbps)</item>
+        <item>Balansert kvalitet på lyd og tilkobling (660 kbps/606 kbps)</item>
+        <item>Optimalisert for tilkoblingskvalitet (330 kbps/303 kbps)</item>
+        <item>Best effekt (Tilpasset bitfrekvens)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
         <item>Optimalisert for lydkvalitet</item>
-        <item>Balansert lyd- og tilkoblingskvalitet</item>
+        <item>Balansert kvalitet på lyd og tilkobling</item>
         <item>Optimalisert for tilkoblingskvalitet</item>
-        <item>Beste forsøk (tilpasset bithastighet)</item>
+        <item>Best effekt (Tilpasset bitfrekvens)</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Av</item>
-        <item>64 KB</item>
-        <item>256 KB</item>
-        <item>1 MB</item>
-        <item>4 MB</item>
-        <item>16 MB</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
         <item>Av</item>
-        <item>64 KB</item>
-        <item>256 KB</item>
-        <item>1 MB</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
         <item>Av</item>
-        <item>64 KB per loggbuffer</item>
-        <item>256 KB per loggbuffer</item>
-        <item>1 MB per loggbuffer</item>
-        <item>4 MB per loggbuffer</item>
-        <item>16 MB per loggbuffer</item>
+        <item>64K per loggbuffer</item>
+        <item>256K per loggbuffer</item>
+        <item>1M per loggbuffer</item>
+        <item>4M per loggbuffer</item>
+        <item>16M per loggbuffer</item>
     </string-array>
     <string-array name="select_logpersist_titles">
         <item>Av</item>
         <item>Alle</item>
-        <item>Unntatt radio</item>
-        <item>bare kjerne</item>
+        <item>Alle unntatt radio</item>
+        <item>Kun kjerne</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
         <item>Av</item>
         <item>Alle loggbuffere</item>
-        <item>Alle unntatt radiologgbuffere</item>
-        <item>bare kjerneloggbuffer</item>
+        <item>Alle unntatt radiologg-buffere</item>
+        <item>Kun kjernelogg-buffere</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Animasjon av</item>
-        <item>Animasjonsskala 0,5x</item>
+        <item>Animasjonsskala ,5x</item>
         <item>Animasjonsskala 1x</item>
         <item>Animasjonsskala 1,5x</item>
         <item>Animasjonsskala 2x</item>
@@ -156,7 +161,7 @@
     </string-array>
     <string-array name="transition_animation_scale_entries">
         <item>Animasjon av</item>
-        <item>Animasjonsskala 0,5x</item>
+        <item>Animasjonsskala ,5x</item>
         <item>Animasjonsskala 1x</item>
         <item>Animasjonsskala 1,5x</item>
         <item>Animasjonsskala 2x</item>
@@ -165,7 +170,7 @@
     </string-array>
     <string-array name="animator_duration_scale_entries">
         <item>Animasjon av</item>
-        <item>Animasjonsskala 0,5x</item>
+        <item>Animasjonsskala ,5x</item>
         <item>Animasjonsskala 1x</item>
         <item>Animasjonsskala 1,5x</item>
         <item>Animasjonsskala 2x</item>
@@ -200,7 +205,7 @@
     <string-array name="track_frame_time_entries">
         <item>Av</item>
         <item>På skjermen som linjer</item>
-        <item>In adb shell dumpsys gfxinfo</item>
+        <item>I adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
         <item>Av</item>
@@ -208,7 +213,7 @@
         <item>Vis områder for grønnblindhet</item>
     </string-array>
     <string-array name="debug_hw_renderer_entries">
-        <item>OpenGL (standard)</item>
+        <item>OpenGL (Standard)</item>
         <item>OpenGL (Skia)</item>
     </string-array>
     <string-array name="app_process_limit_entries">
@@ -234,9 +239,20 @@
         <item>Rask</item>
         <item>Raskere</item>
         <item>Veldig rask</item>
-        <item>Rask</item>
-        <item>Veldig rask</item>
+        <item>Hurtig</item>
+        <item>Veldig hurtig</item>
         <item>Raskest</item>
+    </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
     </string-array>
     <string-array name="color_mode_names">
         <item>Levende (standard)</item>
@@ -253,6 +269,24 @@
         <item>50 %</item>
         <item>100 %</item>
     </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+    </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
     <string-array name="aqi_title">
         <item>%1$s</item>
         <item>%1$s</item>
@@ -263,7 +297,7 @@
         <item>%1$s</item>
     </string-array>
     <string-array name="weather_type">
-        <item>Clear</item>
+        <item>Klart</item>
         <item>Skyet</item>
         <item>Overskyet</item>
         <item>Tåke</item>

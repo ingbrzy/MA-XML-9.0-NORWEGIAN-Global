@@ -5,12 +5,12 @@
         <item quantity="one">%d reklamer blokkert</item>
     </plurals>
     <plurals name="adblock_rules_number_text">
-        <item quantity="other">%d items blocked</item>
-        <item quantity="one">%d enheter blokkert</item>
+        <item quantity="other">%d elementer blokkert</item>
+        <item quantity="one">%d element blokkert</item>
     </plurals>
     <plurals name="dialog_confirm_delete_downloads_message">
-        <item quantity="other">Delete %d tasks?</item>
-        <item quantity="one">Slett %d oppgaver?</item>
+        <item quantity="other">Slett %d oppgaver?</item>
+        <item quantity="one">Slett %d oppgave?</item>
     </plurals>
     <plurals name="find_on_page_matches">
         <item quantity="other">%d resultater</item>
@@ -22,11 +22,11 @@
     </plurals>
     <plurals name="matches_found">
         <item quantity="other">%1$d av %2$d</item>
-        <item quantity="one">1 match</item>
+        <item quantity="one">1 kamp</item>
     </plurals>
     <plurals name="nav_screen_incognito_time">
-        <item quantity="other">After %d seconds will automatically create a new page</item>
-        <item quantity="one">After %d second will automatically create a new page</item>
+        <item quantity="other">Etter %d sekunder vil den automatisk opprette en ny side</item>
+        <item quantity="one">Etter %d sekund vil den automatisk opprette en ny side</item>
     </plurals>
     <plurals name="pref_adblock_counts">
         <item quantity="other">%d blokkert</item>
@@ -57,12 +57,12 @@
         <item quantity="one">Fjern %1$d video?</item>
     </plurals>
     <plurals name="video_history_clear_info">
-        <item quantity="other">%1$d items deleted from history.</item>
-        <item quantity="one">%1$d enheter slettet fra historikk.</item>
+        <item quantity="other">%1$d elementer slettet fra historikk.</item>
+        <item quantity="one">%1$d element slettet fra historikk.</item>
     </plurals>
     <plurals name="video_history_clear_prompt">
-        <item quantity="other">Delete %1$d items from history?</item>
-        <item quantity="one">Slette %1$d enheter fra historikk?</item>
+        <item quantity="other">Slette %1$d elementer fra historikk?</item>
+        <item quantity="one">Slette %1$d element fra historikk?</item>
     </plurals>
     <plurals name="video_push_multi_message">
         <item quantity="other">%1$d updates are available.</item>
@@ -73,7 +73,7 @@
         <item quantity="one">%d minutt gjenstår</item>
     </plurals>
     <plurals name="view_realtime_clear">
-        <item quantity="other">Clear</item>
-        <item quantity="one">Clear</item>
+        <item quantity="other">Klart</item>
+        <item quantity="one">Klart</item>
     </plurals>
 </resources>

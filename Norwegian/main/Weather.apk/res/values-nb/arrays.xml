@@ -45,7 +45,7 @@
         <item>&lt;Styrke 2</item>
         <item>&lt;6.0km/t</item>
         <item>&lt;1.7m/s</item>
-        <item>&lt;3.7mph</item>
+        <item>&lt;3,7 mph</item>
         <item>&lt;3.2kn</item>
     </string-array>
     <string-array name="hot_city">
@@ -168,7 +168,7 @@
         <item>Beaufort-skala</item>
         <item>Kilometer i timen (km/t)</item>
         <item>Meter per sekund (m/s)</item>
-        <item>Miles per hour (mph)</item>
+        <item>Engelsk mil per time (mph)</item>
         <item>Knot (kn)</item>
     </string-array>
     <string-array name="wind_unit_replace">

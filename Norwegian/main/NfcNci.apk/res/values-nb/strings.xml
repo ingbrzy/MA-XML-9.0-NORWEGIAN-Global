@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Nfc Service</string>
+    <string name="app_name">Nfc-tjeneste</string>
     <string name="nfcUserLabel">NFC</string>
     <string name="inbound_me_profile_title">Kontakt mottatt per NFC</string>
     <string name="inbound_me_profile_text">Trykk for å legge til denne personen som en kontakt.</string>

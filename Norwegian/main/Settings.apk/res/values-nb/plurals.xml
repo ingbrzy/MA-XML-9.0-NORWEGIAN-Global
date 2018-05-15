@@ -36,9 +36,17 @@
         <item quantity="other">%d apper har tillatelse til å starte automatisk</item>
         <item quantity="one">%d app har tillatelse til å starte automatisk</item>
     </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d apper kan koble til nettverket</item>
+        <item quantity="one">%d app kan koble til nettverket</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">%d apper kan ikke koble til nettverket</item>
+        <item quantity="one">%d app kan ikke koble til nettverket</item>
+    </plurals>
     <plurals name="connected_devices_number">
-        <item quantity="other">%d devices</item>
-        <item quantity="one">%d enheter</item>
+        <item quantity="other">%d enheter</item>
+        <item quantity="one">%d enhet</item>
     </plurals>
     <plurals name="data_saver_unrestricted_summary">
         <item quantity="other">%1$d apper kan bruke ubegrenset med data når Datasparing er på</item>
@@ -84,6 +92,10 @@
         <item quantity="other">Minimum %d apper</item>
         <item quantity="one">Minimum %d app</item>
     </plurals>
+    <plurals name="firewall_item_summary">
+        <item quantity="other">Begrenser tilkobling for %s apper</item>
+        <item quantity="one">Begrenser tilkobling for %s app</item>
+    </plurals>
     <plurals name="free_wifi_connected_count">
         <item quantity="other">%1$d personer tilkoblet</item>
         <item quantity="one">%1$d person tilkoblet</item>
@@ -117,15 +129,15 @@
         <item quantity="one">Må inneholde minst én stor bokstav</item>
     </plurals>
     <plurals name="lockpassword_pin_fixed_length">
-        <item quantity="other">PIN must be %d digits</item>
+        <item quantity="other">PIN-koden må være på %d siffer</item>
         <item quantity="one">PIN-koden må være på %d siffer</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long">
-        <item quantity="other">PIN can contain up to %d digits</item>
-        <item quantity="one">PIN-koden kan inneholde opptil %d sifre</item>
+        <item quantity="other">PIN-koden kan inneholde opptil %d siffer</item>
+        <item quantity="one">PIN-koden kan inneholde opptil %d siffer</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short">
-        <item quantity="other">PIN must be %d digits long</item>
+        <item quantity="other">PIN-kode må være på %d siffer</item>
         <item quantity="one">PIN-kode må være på %d siffer</item>
     </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
@@ -253,12 +265,12 @@ Kontakt administratoren din hvis du vil ha mer informasjon om dette sertifikatet
         <item quantity="one">Sjekk sertifikatet</item>
     </plurals>
     <plurals name="status_bar_settings_disabled_header_title">
-        <item quantity="other">"%d apps can't show notifications"</item>
-        <item quantity="one">%d apper kan ikke vise varsler</item>
+        <item quantity="other">%d apper kan ikke vise varsler</item>
+        <item quantity="one">%d app kan ikke vise varsler</item>
     </plurals>
     <plurals name="status_bar_settings_enabled_header_title">
-        <item quantity="other">%d apps can show notifications</item>
-        <item quantity="one">%d apper kan vise varsler</item>
+        <item quantity="other">%d apper kan vise varsler</item>
+        <item quantity="one">%d app kan vise varsler</item>
     </plurals>
     <plurals name="uri_permissions_text">
         <item quantity="other">%d elementer</item>

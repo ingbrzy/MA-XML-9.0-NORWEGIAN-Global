@@ -4,6 +4,10 @@
         <item>4x4</item>
         <item>4x5</item>
     </string-array>
+    <string-array name="cell_layout_size_values">
+        <item>4x4</item>
+        <item>4x5</item>
+    </string-array>
     <string-array name="editing_mode_entries">
         <item>Bakgrunn</item>
         <item>Widget</item>
@@ -42,12 +46,12 @@
     </string-array>
     <string-array name="transformation_entries">
         <item>Skyv</item>
-        <item>Crossfade</item>
-        <item>Tumble</item>
+        <item>Overtoning</item>
+        <item>Velte</item>
         <item>Side</item>
         <item>Kaskade</item>
         <item>Roter</item>
-        <item>Cube</item>
+        <item>Kube</item>
     </string-array>
     <string-array name="wallpaper_scroll_entries">
         <item>Standard tema</item>

@@ -25,11 +25,12 @@
     <string name="s5">Opprett kalenderaktivitet</string>
     <string name="s6">Vil du la annonsen opprette en kalenderaktivitet?</string>
     <string name="s7">Testannonse</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="account_and_cloud">Konto</string>
     <string name="action_item_add">Legg til</string>
     <string name="action_item_add_song">Legg til i spilleliste</string>
-    <string name="action_item_add_to_current_playlist">Nåværende spilleliste</string>
-    <string name="action_item_add_to_favorite_playlist">Favorittspilleliste</string>
+    <string name="action_item_add_to_current_playlist">Kø</string>
+    <string name="action_item_add_to_favorite_playlist">Favoritter</string>
     <string name="action_item_add_to_new_playlist">Ny</string>
     <string name="action_item_delete">Slett</string>
     <string name="action_item_download">Last ned</string>
@@ -38,14 +39,15 @@
     <string name="action_item_hide">Gjem</string>
     <string name="action_item_hifi">Høretelefoner &amp; lydeffekter</string>
     <string name="action_item_play_all">Spill alle</string>
+    <string name="action_item_play_next">Play later</string>
     <string name="action_item_remove">Fjern</string>
     <string name="action_item_remove_from_favorite">Fjern fra favoritt</string>
     <string name="action_item_share">Del</string>
     <string name="action_settings">Innstillinger</string>
     <string name="ad_close">Lukk</string>
     <string name="ad_data_exception">Legg til datafeil</string>
-    <string name="ad_recommend">Anbefalinger</string>
-    <string name="ad_setting">Legg til innstillinger</string>
+    <string name="ad_recommend">Receive recommendations</string>
+    <string name="ad_setting">Additional settings</string>
     <string name="add_music">Legg til sanger</string>
     <string name="add_to_last_of_playlist">Legg til i slutten av spillelisten</string>
     <string name="add_to_playlist_successful">Lagt til</string>
@@ -53,6 +55,8 @@
     <string name="alaka_required">Du bør betale for å lytte til denne sangen</string>
     <string name="album_label">Albumcovere</string>
     <string name="album_name">Album</string>
+    <string name="all_album_count">All albums (%d)</string>
+    <string name="all_playlist_count">All playlists (%d)</string>
     <string name="all_tracks">Alle sanger</string>
     <string name="already_download">Laster ned…</string>
     <string name="already_download_btn">Laster ned…</string>
@@ -86,7 +90,6 @@
     <string name="audio_recognition_setting_title">Finn albumcovere og tekster</string>
     <string name="auto_payment">Automatisk fornyelse</string>
     <string name="auto_payment_date">Neste betaling: %s</string>
-    <string name="auto_upgrade">Oppdater automatisk</string>
     <string name="available_playlist_name_format">Ny spilleliste %d</string>
     <string name="avoid_to_use_traffic_summary">Ikke bruk mobilnettverk til å strømme musikk</string>
     <string name="avoid_to_use_traffic_title">Varsle når mobildata brukes til å spille sanger</string>
@@ -132,6 +135,7 @@
     <string name="connecting_apk">Kobler til…</string>
     <string name="continue_backup">Fortsett</string>
     <string name="cp_info_first">Online strømmetjeneste for musikk blir hovedsakelig levert av Ultimate Inc.</string>
+    <string name="cp_info_second">service1@ultimobi.com</string>
     <string name="create_order_fail">Kunne ikke opprette ordren. Prøv igjen.</string>
     <string name="create_playlist">Opprett spilleliste</string>
     <string name="create_playlist_failure">Kunne ikke opprette spilleliste</string>
@@ -140,7 +144,7 @@
     <string name="current_version">Aktuell versjon</string>
     <string name="data_usage_warning">Databruk</string>
     <string name="data_usage_warning_summary">Bruk av mobildataforbindelse til å strømme musikk av høy kvalitet kan øke kostnadene for databruk.</string>
-    <string name="date_format_str">MM-dd-yyyy</string>
+    <string name="date_format_str">dd-MM-yyyy</string>
     <string name="delete">Slett</string>
     <string name="delete_download">Slett</string>
     <string name="delete_file_as_well">Slett denne sangen permanent.</string>
@@ -171,8 +175,6 @@
     <string name="dialog_insufficient_space_on_external">Ikke nok plass på ekstern lagring</string>
     <string name="dialog_media_not_found">Kan ikke laste ned. SD-kort er ikke tilgjengelig.</string>
     <string name="dialog_queued_body">Denne filen står i kø for fremtidlig nedlasting.</string>
-    <string name="dialog_show_more_backup">Back up local songs</string>
-    <string name="dialog_show_more_optimize_all">Optimize song info</string>
     <string name="dialog_song_sort_type">Sorter sanger</string>
     <string name="dialog_song_sort_type_name">Etternavn</string>
     <string name="dialog_song_sort_type_playing_times">Etter antall avspillinger</string>
@@ -182,7 +184,7 @@
     <string name="dialog_song_view_type_artist">Etter artist</string>
     <string name="dialog_song_view_type_folder">Etter mappe</string>
     <string name="dialog_song_view_type_song">Etter sang</string>
-    <string name="dialog_title_clearlist_tracks">Tøm spilleliste</string>
+    <string name="dialog_title_clearlist_tracks">Remove from queue</string>
     <string name="dialog_title_delete_tracks">Slett</string>
     <string name="dialog_title_name_playlist">Navn på spillelisten</string>
     <string name="dialog_title_not_available">Kunne ikke laste ned</string>
@@ -228,6 +230,7 @@
     <string name="download_method">Last ned</string>
     <string name="download_no_application_title">Kan ikke åpne fil</string>
     <string name="download_paused_in_power_save_mode">Nedlastinger er satt på pause når batterisparer er på</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Laster ned…</string>
     <string name="download_quality">Nedlastingskvalitet</string>
     <string name="download_quality_summary">Ekstra innstillinger for sanger du har lastet ned</string>
@@ -263,6 +266,7 @@
     <string name="downloading_apk">Nedlasting… Se utviklingen i Meldingsskyggen.</string>
     <string name="downloading_empty">Tøm</string>
     <string name="downloading_pause_apk">Pauset. Nedlasting startes igjen i Meldingsskyggen.</string>
+    <string name="edit_playlist_info">Edit playlist info</string>
     <string name="empty_page_no_album">Ingen album.</string>
     <string name="empty_page_no_artist">Ingen artister.</string>
     <string name="enable_auto_payment_fail">Kunne ikke skru på</string>
@@ -294,6 +298,7 @@
     <string name="error_title">Kan ikke synkronisere med Mi Account</string>
     <string name="error_unauthorized">Synkronisering er skrudd av på grunn av for mange innloggingsforsøk.</string>
     <string name="expired">Utløpt</string>
+    <string name="facebook_not_installed">Install Facebook first.</string>
     <string name="fail_to_fetch_payment_page_url">Fikk ikke betalingsinfo</string>
     <string name="fail_to_play">Kan ikke spille sang</string>
     <string name="fav_login_msg">Logg inn på din Mi-konto for å laste ned sanger</string>
@@ -376,7 +381,7 @@
     <string name="individuation_recommend_message">Skru på anbefalinger for å mottal personlige forslag, basert på dine preferanser.</string>
     <string name="individuation_recommend_switch_message">Hvis du slår av denne funksjonen, påvirker det personlige Mi Music-tjenester. Slå av likevel?</string>
     <string name="individuation_recommend_title">Anbefalinger</string>
-    <string name="input_hint_prefix">Enter %1$s</string>
+    <string name="input_hint_prefix">Fyll inn %1$s</string>
     <string name="installing_apk">Installerer…</string>
     <string name="insufficient_space">Ikke nok plass på enhetens interne lagringsplass</string>
     <string name="intelligent_recognize">Albumcovere og tekster</string>
@@ -391,7 +396,7 @@
     <string name="keep_queued_download">Behold</string>
     <string name="ktv_playlist">KTV-spilliste</string>
     <string name="latest_song">Spillehistorie (%d)</string>
-    <string name="like">Like</string>
+    <string name="like">Liker</string>
     <string name="list_item_play_all_tracks">Spill alle</string>
     <string name="load_shuffle">Laster…</string>
     <string name="loadercontainer_loading">Et øyeblikk…</string>
@@ -405,6 +410,7 @@
     <string name="local_page_custom_title">For deg</string>
     <string name="local_page_playlist">Mine spillelister</string>
     <string name="local_page_song_download_history">Nedlastinger</string>
+    <string name="long_press_to_select_lyric">Press &amp; hold to select local lyrics file</string>
     <string name="lrc_search_failed">Finner ikke tekst</string>
     <string name="lrc_searching">Søker…</string>
     <string name="lyric_is_empty">Ingen tekster tilgjengelig</string>
@@ -429,7 +435,7 @@
     <string name="metered_serious_alert_msg_with_data">Du har kun %s mobildata igjen. Bruke mobildata til å spille sanger?</string>
     <string name="metered_serious_allow">Spill uansett</string>
     <string name="milink_unavaliable_please_update">"Mi Link isn't er ikke tilgjengelig. Oppdater MIUI."</string>
-    <string name="missing_title">&lt;Unknown></string>
+    <string name="missing_title">&lt;Ukjent></string>
     <string name="miuishare_account_login_ok">Logg inn</string>
     <string name="miuishare_no_network">Kan ikke koble til nettverk</string>
     <string name="miuishare_publish">Send</string>
@@ -442,12 +448,13 @@
     <string name="mobile_recommended_title">Mobil databruk</string>
     <string name="modify_info_disable_note">Hvis du ønsker å redigere info manuelt, skrur du av \"Finn albumcover og tekster\" først.</string>
     <string name="modify_lyric">Rediger tekster</string>
+    <string name="modify_pic">Change cover</string>
     <string name="modify_progress">Endre scrollhastighet for tekster</string>
     <string name="modify_progress_helper">Sveip opp eller ned for å justere tekstfremgang.</string>
     <string name="modify_song_info">Rediger sanginfo</string>
     <string name="modify_song_info_success">Sanginfo er oppdatert</string>
     <string name="more">Mer</string>
-    <string name="more_add_song_list">Legg til nåværende spilleliste</string>
+    <string name="more_add_song_list">Add songs to queue</string>
     <string name="more_settings">Avanserte innstillinger</string>
     <string name="more_settings_summary">Last ned innstillinger, soveinnstillinger, mobildataadministrasjon, filfiltre etc.</string>
     <string name="more_share">Del</string>
@@ -476,12 +483,14 @@
     <string name="no_online_song_selected">Ingen sanger er valgt</string>
     <string name="no_results_return">Ingen søkeresultater</string>
     <string name="no_scanned_songs">Tøm</string>
-    <string name="no_song">Ingen sanger</string>
     <string name="no_song_downloaded">Kunne ikke koble til serveren</string>
+    <string name="no_song_subtitle">Immerse yourself in sound</string>
+    <string name="no_song_title">Mi Musikk</string>
     <string name="no_system_cropper_find">Systemet har ikke et beskjæringsverktøy for bilde</string>
     <string name="normal_quality">God</string>
     <string name="not_login">Ikke logget inn</string>
     <string name="not_selected">Velg en sang</string>
+    <string name="nothing_changed_toast">"You haven't changed anything yet."</string>
     <string name="notif_title_file_size">%1$d totalt</string>
     <string name="notif_title_multiple_downloading">Laster ned %1$d filer</string>
     <string name="notif_title_single_downloading">Laster ned %1$s</string>
@@ -498,12 +507,10 @@
     <string name="nowplaying_circle_style">Play button style</string>
     <string name="nowplaying_circle_style_rainbow">Regnbue</string>
     <string name="nowplaying_circle_style_wave">Bølge</string>
-    <string name="nowplaying_dialog_title_delete_tracks">Rens nåværende spilleliste?</string>
-    <string name="nowplaying_menu_item_delete">Rens</string>
+    <string name="nowplaying_dialog_title_delete_tracks">Remove this song from queue?</string>
+    <string name="nowplaying_menu_item_delete">Remove from queue</string>
     <string name="ok">OK</string>
     <string name="online_list_delete_message">Alle nedlastede sanger i spillelisten vil bli slettet fra internminnet.</string>
-    <string name="online_music_enabled_summary">Lytt til og last ned favorittsangene. Se toppsanger og kurerte spillelister når du er på farten!</string>
-    <string name="online_music_enabled_title">Gratis strømming er her</string>
     <string name="online_recommend">Spilleliste</string>
     <string name="online_service_open_tip">Musikktjenester på nett er på</string>
     <string name="online_service_title">Internett-tjenester</string>
@@ -523,21 +530,27 @@
     <string name="paused_waiting_for_network">Venter på tilkobling</string>
     <string name="paused_waiting_to_retry">Venter på å forsøke igjen</string>
     <string name="pay_now">Nåværende tjeneste</string>
+    <string name="payment_success_message">Thank you! Your payment was processed successfully. Enjoy PRO services.</string>
+    <string name="payment_success_title">Congrats!</string>
     <string name="pending_apk">Avventer…</string>
     <string name="permission_declaration_message">Gi tilgang til lagring i Security > Permissions > Permissions > Storage > Music må kunne bruke Music normalt</string>
     <string name="permission_declaration_negative_text">Senere</string>
     <string name="permission_declaration_positive_text">Gå til Security</string>
     <string name="permission_declaration_title">Gi tilgang</string>
-    <string name="pick_favorite_song">Favorites</string>
+    <string name="pick_favorite_song">Favoritter</string>
     <string name="pick_local_song">Lokale sanger</string>
     <string name="pick_recent_song">Nylig spilt</string>
     <string name="play_all_song">Spill alle</string>
+    <string name="play_empty_playlist">"Can't play songs. The playlist is empty."</string>
     <string name="play_mode_all_loop">Gjenta alle</string>
     <string name="play_mode_one_loop">Sløyfe</string>
     <string name="play_mode_play_all">Spill alle</string>
     <string name="play_mode_shuffle_all">Stokk</string>
     <string name="play_next">Spill neste</string>
     <string name="playlist_empty">Ingen spillelister funnet</string>
+    <string name="playlist_title">Navn på spillelisten</string>
+    <string name="playlist_title_is_empty">"Playlist name can't be blank"</string>
+    <string name="playlist_title_is_invalid">Playlist already exists</string>
     <string name="playlist_type_album">Albumer</string>
     <string name="playlist_type_artist">Artist</string>
     <string name="playlist_type_billboard">Lister</string>
@@ -551,11 +564,13 @@
     <string name="priority_storage">Bruk eksternt SD-kort</string>
     <string name="priority_storage_summary">Last automatisk ned til eksternt SD-kort hvis det er tilgjengeligA</string>
     <string name="privacy_policy">Personvernregler</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=en</string>
     <string name="project_device">Mi-telefon</string>
     <string name="prompt_grant_write_settings_permission">Allow changing system settings</string>
     <string name="pulluprefreshrecyclerview_loading_error">Kunne ikke laste</string>
     <string name="pulluprefreshrecyclerview_loading_finished">Vellykket lastet</string>
     <string name="pulluprefreshrecyclerview_loading_running">Laster…</string>
+    <string name="queue_is_empty">Playing queue is empty.</string>
     <string name="radar">ACRCloud</string>
     <string name="radar_click_to_retry">Trykk for å prøve igjen</string>
     <string name="radar_fail">Ingen resultater</string>
@@ -603,22 +618,19 @@
     <string name="search_hint">Søk etter artister, sanger, album og anbefalinger</string>
     <string name="search_history_clear_all">Rens</string>
     <string name="search_instant_online_music">Online</string>
+    <string name="search_songs_count">Sanger: %d</string>
     <string name="search_title">Søk</string>
     <string name="select_all">Velg alle</string>
     <string name="select_device">Velg enhet</string>
     <string name="select_displayed_folders">Velg mapper å vise</string>
-    <string name="select_local_album">Velg album</string>
-    <string name="select_local_lyric">Velg tekster</string>
+    <string name="select_local_cover">Select local cover</string>
+    <string name="select_local_lyric_file">Select local lyrics file</string>
     <string name="select_none">Fjern alle valg</string>
     <string name="selected_count">Valgt %1$d av %2$d</string>
     <string name="send_to_title">Send til (%1$s)</string>
     <string name="server_error">An error occurred, wait a minute or two and try again.</string>
     <string name="service_and_settings">Service og innstillinger</string>
     <string name="set_as_ring">Establir com a to de trucada</string>
-    <string name="set_id3_failed">Kan ikke lagre info</string>
-    <string name="set_id3_not_have_read_or_write_permission">Du trenger ikke tillatelse for å redigere denne filen</string>
-    <string name="set_id3_not_support_format">Kan ikke redigere dette filformatet</string>
-    <string name="set_id3_successful">Sanginfo lagret</string>
     <string name="set_ringtones_failed">Kunne ikke sette ringetone</string>
     <string name="set_ringtones_successful">%s satt som ringetone</string>
     <string name="setting_feature_setting">Funksjonsinnstillinger</string>
@@ -655,12 +667,12 @@
     <string name="sleep_mode_canceled">Sovemodus er slått av</string>
     <string name="sleep_mode_summary">Stopp spilleren etter en gitt tid</string>
     <string name="sleep_mode_title">Innsovningsinnstilling</string>
-    <string name="song_exist_in_playlist">Denne sangen er allerede i spillelisten</string>
+    <string name="song_exist_in_playlist">This song is already in the queue</string>
     <string name="song_info">Sangdetaljer</string>
     <string name="song_is_empty">Sangnavn kan ikke være tom.</string>
     <string name="song_name">Sang</string>
     <string name="song_not_find">Denne sangen er ikke tilgjengelig</string>
-    <string name="song_offline">This song is no longer available.</string>
+    <string name="song_offline">Dette sang er ikke lenger tilgjengelig.</string>
     <string name="songgroup_pick_album">Albumer</string>
     <string name="songgroup_pick_playlist">Spillelister</string>
     <string name="sort_by_name">Navn</string>
@@ -725,6 +737,7 @@
     <string name="upgrade_music">Oppdater Music</string>
     <string name="upgrade_music_message">Oppdateringer er klare. Omstart for å oppdatere.</string>
     <string name="user_agreement">Brukeravtale</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=en</string>
     <string name="version_info">Versjon</string>
     <string name="vip_after_tomorrow_auto_renew_message">Ditt Music-abonnement vil bli automatisk fornyet i overimorgen kveld. Pass på at du har nok Mi-kreditt på kontoen din for å gjennomføre betalingen.</string>
     <string name="vip_after_tomorrow_renew_message">Du vil ikke kunne strømme høykvalitets lyd, men enkelte sanger vil være tilgjengelig i standardkvalitet.</string>
@@ -740,4 +753,11 @@
 
 Trykk%s for å starte denne nedlastingen neste gang du er tilkoblet et Wi-Fi-nettverk."</string>
     <string name="wifi_required_title">Du bør koble til Wi-Fi for å laste ned denne filen</string>
+    <string name="auto_upgrade">Oppdater automatisk</string>
+    <string name="dialog_show_more_backup">Back up local songs</string>
+    <string name="dialog_show_more_optimize_all">Optimize song info</string>
+    <string name="set_id3_failed">Kan ikke lagre info</string>
+    <string name="set_id3_not_have_read_or_write_permission">Du trenger ikke tillatelse for å redigere denne filen</string>
+    <string name="set_id3_not_support_format">Kan ikke redigere dette filformatet</string>
+    <string name="set_id3_successful">Sanginfo lagret</string>
 </resources>

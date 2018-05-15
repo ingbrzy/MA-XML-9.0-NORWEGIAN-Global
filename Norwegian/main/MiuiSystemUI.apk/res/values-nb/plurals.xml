@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="status_bar_accessibility_recent_apps">
-        <item quantity="other">%d recent apps</item>
-        <item quantity="one">%d nylige apper</item>
+        <item quantity="other">%d nylige apper</item>
+        <item quantity="one">%d nylige app</item>
     </plurals>
     <plurals name="accessibility_recent_task_enter">
-        <item quantity="other">Opened Recents, available apps: %d.</item>
-        <item quantity="one">Åpnet Nylige, tilgjengelige apper: %d.</item>
+        <item quantity="other">Åpnet Nylige, tilgjengelige apper: %d.</item>
+        <item quantity="one">Åpnet Nylige, tilgjengelige app: %d.</item>
     </plurals>
     <plurals name="accessibility_recent_task_first_enter_tips">
         <item quantity="other">Åpnet Nylige, tilgjengelige apper: %d. Sveip opp for å fjerne, sveip ned for å låse.</item>
@@ -25,8 +25,8 @@
         <item quantity="one">Skjule varsler fra %1$s &amp; %2$d apper.</item>
     </plurals>
     <plurals name="view_realtime_clear">
-        <item quantity="other">Clear</item>
-        <item quantity="one">Clear</item>
+        <item quantity="other">Klart</item>
+        <item quantity="one">Klart</item>
     </plurals>
     <plurals name="accessibility_desc_weather_temperature">
         <item quantity="other">Vær %d grader</item>

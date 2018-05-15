@@ -30,6 +30,7 @@
     <string name="direction_north_west">NV</string>
     <string name="direction_south_east">SØ</string>
     <string name="direction_south_west">SV</string>
+    <string name="unit_degree">Grader</string>
     <string name="guide_toast">Beveg telefonen i bevegelsen som vist under for å kalibrere.</string>
     <string name="mobiledata_alert_dialog_title">Advarsel databruk</string>
     <string name="mobiledata_alert_dialog_message">Koble til internett for å kalibrere høyde?</string>

@@ -80,7 +80,7 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="toast_update_nonetwork">Kunne ikke koble til nettverket</string>
     <string name="toast_update_fail">Kunne ikke oppdatere</string>
     <string name="toast_update_success">Oppdateringen er vellykket</string>
-    <string name="toast_update_notneed">Up to date</string>
+    <string name="toast_update_notneed">Oppdatert</string>
     <string name="menu_call">Slå nummer</string>
     <string name="menu_sms">Send melding</string>
     <string name="menu_bl_call_log">Se blokkerte anrop</string>
@@ -176,7 +176,7 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="report_success">Melding rapportert</string>
     <string name="report_error">Rapportering av melding mislyktes</string>
     <string name="report_warning">Rapportere %1$s SMS til Mi? Disse meldingene, og telefonnummeret de ble sendt fra, lastes opp til Mis servere for gjennomgang. Personlig informasjon knyttet til disse meldingene er alltid anonym.</string>
-    <string name="report_warning_title">Attention</string>
+    <string name="report_warning_title">Merk</string>
     <string name="st_sub_title_customize_mode_name">Navn</string>
     <string name="read_all_sms">Lest alt</string>
     <string name="loding">Laster inn data</string>
@@ -371,10 +371,18 @@ svarer"</string>
     <string name="main_purchase_tips">Kampanje</string>
     <string name="main_month_total_used">Brukt denne måneden</string>
     <string name="main_daily_package">Daglig dataplan</string>
-    <string name="main_indicator_title">Activation</string>
+    <string name="main_indicator_title">Aktivering</string>
     <string name="main_tobe_added_desc">Mobildata fra ¥0.03/MB</string>
     <string name="main_button_mi_sim_close">Activer Mi SIM</string>
     <string name="main_button_mi_sim_open">Vis detaljer</string>
+    <string name="adjust_sms_cmd"><u>Juster kalibrering for SMS-mal</u></string>
+    <string name="sms_detail_correct_success_text">Her er statistikk på databruk fra forrige kalibrering (%1$s):</string>
+    <string name="tc_send_sms_error">Kunne ikke sende SMS</string>
+    <string name="tc_cmd_invalid">Malen er ugyldig</string>
+    <string name="tc_receive_timeout">Tidsavbrudd ved kalibrering</string>
+    <string name="tc_parse_error">Kunne ikke dele opp SMS</string>
+    <string name="tc_get_cmd_error">Kunne ikke hente mal</string>
+    <string name="tc_web_correct_error">Kunne ikke kalibrere</string>
     <string name="firewall_activity_lable">Begrens databruk på app</string>
     <string name="firewall_applist">Apper</string>
     <string name="firewall_mobile">Mobildata</string>
@@ -388,19 +396,19 @@ svarer"</string>
     <string name="firewall_restrict_android_dialog_content">For å sørge for at enheten din fungerer normalt, vil noen Android-systemapper fremdeles kobles til internett. Disse appene vil bruke mobildataforbindelse og kan påføre lave kostnader fra leverandøren din.</string>
     <string name="background_restrict_app_dialog_message">Å begrense nettverkstilgang i bakgrunnen for denne appen kan gjøre det umulig for appen å fungere normalt, motta meldinger, laste ned innhold, osv. Begrense uansett?</string>
     <string name="firewall_allow_network">Tillat</string>
-    <string name="app_bg_restrict_dialog_message">Restricting background network connection may prevent the app from working normally. For example, it might no longer be able to receive messages or update content.</string>
+    <string name="app_bg_restrict_dialog_message">Begrensning av nettverksforbindelsen i bakgrunnen kan hindre apper fra å fungere normalt. De kan for eksempel ikke lenger motta meldinger eller oppdatere innhold.</string>
     <string name="firewall_network_allow">Tillot %1$s å bruke %2$s-tilkobling</string>
     <string name="search_result_text">Kunne ikke finne noen apper</string>
     <string name="firewall_mobile_dialog_message">Den installerte appen vil ikke kunne kobles til internett ved bruk av mobildata når denne bryteren er av.</string>
     <string name="firewall_wifi_dialog_message">Den installerte appen vil ikke kunne kobles til internett ved bruk av Wi-Fi når denne bryteren er av.​</string>
     <string name="firewall_system_title">Databruk for system-apper</string>
     <string name="firewall_temp_rule_reason">%2$s begrenset Internett-tilkobling for %1$s</string>
-    <string name="dialog_restrict_all_wlan_title">Restrict Wi-Fi connection</string>
-    <string name="dialog_restrict_all_wlan_summary">Wi-Fi connection will be restricted for all apps after this.</string>
-    <string name="dialog_restrict_all_mobile_title">Restrict %s mobile data connection</string>
-    <string name="dialog_restrict_all_mobile_summary">%s Mobile data connection will be restricted for all apps after this.</string>
+    <string name="dialog_restrict_all_wlan_title">Begrens Wi-Fi-tilkobling</string>
+    <string name="dialog_restrict_all_wlan_summary">Wi-Fi-tilkoblingen vil begrenses for alle apper etter dette.</string>
+    <string name="dialog_restrict_all_mobile_title">Begrens mobildataforbindelsen for %s</string>
+    <string name="dialog_restrict_all_mobile_summary">Mobildataforbindelsen for %s vil begrenses for alle apper etter dette.</string>
     <string name="dialog_restrict_positive">Avbryt</string>
-    <string name="dialog_restrict_negative">Restrict</string>
+    <string name="dialog_restrict_negative">Begrens</string>
     <string name="usage_sorted_activity_lable">Databruk</string>
     <string name="usage_sorted_loading_text">Et øyeblikk…</string>
     <string name="usage_sorted_empty_text">Tøm</string>
@@ -421,8 +429,10 @@ svarer"</string>
     <string name="foreground_traffic">Forgrunn %s</string>
     <string name="background_traffic">Bakgrunn %s</string>
     <string name="detail_app_button">App-info</string>
+    <string name="managed_user_title">Alle arbeidsapplikasjoner</string>
     <string name="pref_about_traffic_title">Databrukinnstillinger</string>
     <string name="pref_traffic_manage_title">Databruk</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Dataplan</string>
     <string name="pref_adjust_traffic_data">Still inn databruk</string>
     <string name="pref_category_title_other">Ekstra innstillinger</string>
@@ -535,12 +545,12 @@ svarer"</string>
     <string name="leisure_usage_dialog_message">"Du har overskredet din laveste datagrense.
 
 Leverandøren kan belaste deg med ytterligere avgifter hvis du bruker mobildataforbindelsen igjen."</string>
-    <string name="data_usage_protected_notify_title">"You've already used 5GB of mobile data"</string>
-    <string name="data_usage_protected_notify_message">MIUI turned off mobile data to prevent you from generating additional carrier fees.</string>
-    <string name="data_usage_mobile_dialog_title">"You've already used 5GB of mobile data. MIUI turned off mobile data."</string>
-    <string name="data_usage_protected_dialog_message">"MIUI turned off mobile data to prevent you from generating additional carrier fees.
+    <string name="data_usage_protected_notify_title">Du har allerede brukt 5 GB med mobildata</string>
+    <string name="data_usage_protected_notify_message">MIUI har skrudd av mobildata for å hindre at det påløpes ytterligere kostnader fra operatøren.</string>
+    <string name="data_usage_mobile_dialog_title">Du har allerede brukt 5 GB med mobildata. MIUI har skrudd av mobildata.</string>
+    <string name="data_usage_protected_dialog_message">"MIUI har skrudd av mobildata for å hindre at det påløper ytterligere kostnader fra operatøren.
 
-Your carrier may charge you extra fees if you turn on mobile data again."</string>
+Operatøren din kan belaste deg med ekstra kostnader hvis du skrur på mobildata igjen."</string>
     <string name="lock_screen_traffic_warn_title">Lås skjermvarsler</string>
     <string name="lock_screen_traffic_notify_body">Låst for %2$s på %1$s, brukt data %3$s</string>
     <string name="timeshow_s">%ds</string>
@@ -639,7 +649,7 @@ Gjenstående data inkluderer data som har blitt videreført fra den forrige mån
     <string name="tc_sms_report_type">Rapporttype</string>
     <string name="privacy_declare_dialog_title">Vilkår for bruk</string>
     <string name="sc_allow_network_dialog_tiltle">Kan ikke bruke denne funksjonen</string>
-    <string name="sc_allow_network_dialog_message">You restricted network connection and access to your location for Security. Give Security the required permissions to use this feature.</string>
+    <string name="sc_allow_network_dialog_message">Du har begrenset nettverksforbindelsen og tilgang til plasseringen din for Security-appen. Gi Security-appen de nødvendige tillatelsene for å bruke denne funksjonen.</string>
     <string name="privacy_prompt_upload">Last opp</string>
     <string name="privacy_prompt_traffic_adjust_message">"Etter du starter kalibreringen, vil MIUI kobles til nettverket, innkode informasjonen til din leverandør, telefonnummer, IMEI og Mi Account, og laste opp disse til Mi-serverne. Dette gjøres for å tilegne kalibreringsmalen til leverandøren og se om det er mulig å kjøpe data i området ditt.
 
@@ -672,6 +682,9 @@ Mens kalibreringen pågår, vil MIUI sende en tekstmelding til leverandøren din
     <string name="roaming_limit_dialog_message">Daglig datagrense for roaming er nådd.</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="roaming_allow_network_dialog_title">Tillate dataroaming på mobil?</string>
+    <string name="dialog_roaming_warning_message">Operatøren vil belaste deg med en avgift etter du skrur på internasjonal dataroaming. Skru på likevel?</string>
+    <string name="dialog_roaming_warning_checkbox">Ikke vis igjen</string>
+    <string name="dialog_roaming_warning_ok">Skru på</string>
     <string name="title_limit_traffic_per_day">Daglig grense for databruk</string>
     <string name="daily_limit_and_lock_screen">Advarsel databruk</string>
     <string name="pref_title_traffic_limit_number">Størrelse</string>
@@ -816,7 +829,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="tc_diagnostic_status_failure">"&lt;font color='#CC0000'>Feil&lt;/font>"</string>
     <string name="tc_diagnostic_status_not_get">"&lt;font color='#ED9523'>Kunne ikke hente informasjon&lt;/font>"</string>
     <string name="tc_diagnostic_status_no_network">"&lt;font color='#ED9523'>Ingen nettverkstilkobling&lt;/font>"</string>
-    <string name="tc_diagnostic_status_timeout">"&lt;font color='#CC0000'>Timeout&lt;/font>"</string>
+    <string name="tc_diagnostic_status_timeout">"&lt;font color='#CC0000'>Tidsavbrudd&lt;/font>"</string>
     <string name="tc_diagnostic_status_error_brand">Kunne ikke finne nettverksleverandør</string>
     <string name="tc_diagnostic_status_success_brand">"&lt;font color='#3EC234'>Nettverksleverandørrespons&lt;/font>"</string>
     <string name="tc_diagnostic_sim_location_result">"&lt;font color='#CC0000'>Resultat: Feil plassering&lt;br/>&lt;br/>Angi plassering: &lt;xliff:g id=location example=BeiJing>%1$s&lt;/xliff:g>&lt;br/>Faktisk plassering: &lt;xliff:g id=location example=ShangHai>%2$s&lt;/xliff:g>&lt;/font>"</string>
@@ -862,6 +875,7 @@ Prøv å bruke en annen ethernet-kabel for å koble til ruteren din. Hvis du mis
     <string name="sms_detail_fragment_title_bill">Telefonsaldo</string>
     <string name="menu_report">Rapporter feil</string>
     <string name="menu_charge_traffic">Kjøp data</string>
+    <string name="menu_setting_traffic">Velg manuelt</string>
     <string name="menu_charge_bill">Fyll på saldo</string>
     <string name="privacy_dialog_message">Når du kobler til internett, vil denne meldingen, sammen med leverandørinformasjon krypteres og lastes opp til Mis servere for å hjelpe oss med å forbedre overvåkingen av databruk.</string>
     <string name="status_bar_network_flow_purchase">"   Kjøp >"</string>
@@ -942,6 +956,7 @@ Dette reduserer batterilevetiden."</string>
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Denne appen kan forsinke
 enheten din"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Avinstallere %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Avinstaller denne appen for å fikse problemer med batteribruk.</string>
     <string name="om_ill_proc_type_wakelock_title">Appen blokkerer hvilemodus og tømmer batteri</string>
@@ -1000,6 +1015,7 @@ enheten din"</string>
     <string name="usage_type_data_send">Mobildata sendt</string>
     <string name="usage_type_no_coverage">Tid uten signal</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Mediaserver</string>
     <string name="power_screen">Skjerm</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1345,6 +1361,7 @@ enheten din"</string>
     <string name="menu_text_networkassistants">Databruk</string>
     <string name="menu_text_networkassistants_remain">%s igjen</string>
     <string name="menu_text_networkassistants_danger">%s over</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">KB</string>
@@ -1598,6 +1615,20 @@ enheten din"</string>
     <string name="title_garbage_clean">Størrelse på App-cache nådde %s</string>
     <string name="summary_garbage_clean">Tøm cache for å frigi plass</string>
     <string name="summary_consume_power">Varmeproblem oppdaget. Det kan påvirke batteriets levetid</string>
+    <string name="title_restrict_data_usage">%s kan ikke koble til Internett?</string>
+    <string name="summary_restrict_data_usage">Du begrenset databruk for denne appen. Trykk her for å fikse det.</string>
+    <string name="title_background_connection">Kan ikke bruke %s i bakgrunnen?</string>
+    <string name="summary_background_connection">Du begrenset bakgrunnstilkoblingen for denne appen. Trykk her for å fikse det.</string>
+    <string name="title_block_calls_from_cantacts">Unngå anrop fra kontakter?</string>
+    <string name="summary_block_calls_from_cantacts">Du bruker svartelisting. Trykk her for å fikse det.</string>
+    <string name="title_block_calls_from_strangers">Unngå viktige anrop?</string>
+    <string name="summary_block_calls_from_strangers">Du tillater kun anrop fra kontakter. Trykk her for å fikse det.</string>
+    <string name="title_do_not_disturb">Hører du ikke ringetonen din?</string>
+    <string name="summary_do_not_disturb">Du bruker DND-modus. Trykk her for å fikse det.</string>
+    <string name="title_eye_shield">Ser ikke skjermfargen riktig ut?</string>
+    <string name="summary_eye_shield">Du bruker lesemodus. Trykk her for å fikse det.</string>
+    <string name="dialog_button_ignore">Ignorer</string>
+    <string name="dialog_button_yes">Ja</string>
     <string name="summary_default_app">%s er ikke satt som standard system-app</string>
     <string name="notification_summary_cmcc_app_check">Berør for å se detaljer.</string>
     <string name="title_cmcc_app_check">Verifisering er ikke fullført</string>
@@ -1705,6 +1736,7 @@ enheten din"</string>
     <string name="card_main_deepclean_wechat_action">Tøm</string>
     <string name="card_main_sectool_title">Verktøy</string>
     <string name="card_main_monthreport_action">Vis</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Test nettverk</string>
     <string name="card_main_netcheck_summary">Test tilkobling for nettverksproblemer</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1726,6 +1758,15 @@ enheten din"</string>
     <string name="card_main_xspace_action">Lag</string>
     <string name="card_main_overscroll_tips">Security på sitt beste</string>
     <string name="card_main_gamebooster_title">Hastighetsøker for spill</string>
+    <string name="exit_dialog_scan_title">Optimaliser ytelsen</string>
+    <string name="exit_dialog_scan_message">Ytelsen til enheten din er lavere enn 75 poeng. Optimalisere nå?</string>
+    <string name="exit_dialog_scan_positive_button">Optimalisere</string>
+    <string name="exit_dialog_garbage_clean_title">Rengjør søppel</string>
+    <string name="exit_dialog_garbage_clean_message">Mengden med søppel på enheten din er på mer enn %s. Rengjøre søppelet?</string>
+    <string name="exit_dialog_garbage_clean_positive_button">Rengjør</string>
+    <string name="exit_dialog_release_storage_title">Frigjør plass</string>
+    <string name="exit_dialog_release_storage_message">Mer enn 80 % av lagringen på enheten din er fylt opp. Frigjør plass ved å avinstallere appene du aldri bruker.</string>
+    <string name="exit_dialog_release_storage_positive_button">Frigjør plass</string>
     <string name="skin_change_close_toast">Endringer vil bli brukt neste gang du starter Security</string>
     <string name="password_type">Endre passord</string>
     <string name="password_type_underline"><u>Endre passord</u></string>
@@ -1734,8 +1775,8 @@ enheten din"</string>
     <string name="app_name">Applås</string>
     <string name="back_app_name">Gå tilbake til App lock</string>
     <string name="ac_notification_contentTitle">Beskytt apper med App lock</string>
-    <string name="ac_pre_notification_contentTitle">Try App Lock</string>
-    <string name="ac_post_notification_contentTitle">Turn on App Lock</string>
+    <string name="ac_pre_notification_contentTitle">Prøv App lock</string>
+    <string name="ac_post_notification_contentTitle">Skru på App lock</string>
     <string name="notification_masked_item">Skjul varsler</string>
     <string name="lock_mode_title">Låseinnstillinger</string>
     <string name="after_the_lock_screen">Lås apper sammen med skjermen</string>
@@ -1743,8 +1784,8 @@ enheten din"</string>
     <string name="ac_firstUseApplock_title">Lag passord til å beskytte appene dine</string>
     <string name="ac_firstUseApplock_subTitle">Bruk bedre sikkerhetsverktøyer på systemnivå</string>
     <string name="ac_notification_contentText">Trykk for å skru på</string>
-    <string name="ac_pre_notification_contentText">Protect your personal info</string>
-    <string name="ac_post_notification_contentText">Get system-level protection</string>
+    <string name="ac_pre_notification_contentText">Beskytt den personlige informasjonen din</string>
+    <string name="ac_post_notification_contentText">Få beskyttelse på systemnivå</string>
     <string name="notification_masked_subtitle">Skjul varsler fra apper som er beskyttet med App lock</string>
     <string name="ac_enter_applock">Start App lock</string>
     <string name="ac_mask_all_apps">Skjul for alle apper</string>
@@ -1753,8 +1794,8 @@ enheten din"</string>
     <string name="ac_summaryOff">Skrudd av, passord ikke påkrevet for å åpne apper</string>
     <string name="lockpattern_tutorial_cancel_label">Avbryt</string>
     <string name="lockpattern_tutorial_continue_label">Neste</string>
-    <string name="lockpattern_tutorial_continue_label_next">Tap \"Next\"</string>
-    <string name="lockpattern_tutorial_continue_label_confirm">Tap \"OK\"</string>
+    <string name="lockpattern_tutorial_continue_label_next">Trykk på \"Neste\"</string>
+    <string name="lockpattern_tutorial_continue_label_confirm">Trykk på \"OK\"</string>
     <string name="lockpattern_retry_button_text">Tegn igjen</string>
     <string name="numeric_retry_button_text">Avbryt</string>
     <string name="mixed_retry_button_text">Avbryt</string>
@@ -1780,7 +1821,7 @@ enheten din"</string>
     <string name="passwordIncorrect">Brukernavn eller passord er feil</string>
     <string name="access_control_app_is_launching">App starter</string>
     <string name="access_control_need_to_unlock_nofingerprint">Skriv inn passord for App lock</string>
-    <string name="access_control_failed_need_to_unlock_nofingerprint">Enter password before unlocking with a new fingerprint</string>
+    <string name="access_control_failed_need_to_unlock_nofingerprint">Skriv inn passordet før du låser opp med et nytt fingeravtrykk</string>
     <string name="access_control_fingerprint_not_identified_msg">Kunne ikke lese fingeravtrykk</string>
     <string name="access_control_need_password">"%s lagt til
 "</string>
@@ -1795,8 +1836,8 @@ enheten din"</string>
     <string name="numeric_recording_intro_header">Skriv inn passord</string>
     <string name="mixed_recording_intro_header">Skriv inn minst 4 tegn</string>
     <string name="lockpattern_pattern_entered_header">Mønster lagt til</string>
-    <string name="numeric_pattern_entered_header">Set PIN successfully</string>
-    <string name="mixed_pattern_entered_header">Set password successfully</string>
+    <string name="numeric_pattern_entered_header">PIN-koden er valgt</string>
+    <string name="mixed_pattern_entered_header">Passordet er valgt</string>
     <string name="lockpattern_need_to_confirm">Tegn mønsteret igjen for å bekrefte</string>
     <string name="numeric_need_to_confirm">Skriv inn på nytt for å bekrefte</string>
     <string name="mixed_need_to_confirm">Skriv inn på nytt for å bekrefte</string>
@@ -1806,10 +1847,10 @@ enheten din"</string>
     <string name="lockpattern_need_to_unlock_wrong">Passordene matcher ikke. Prøv igjen.</string>
     <string name="lockpattern_recording_inprogress">Løft fingeren når du er ferdig</string>
     <string name="lockpattern_pattern_confirmed_header">Nytt låsemønster</string>
-    <string name="numeric_password_confirmed_header_continue">Set successfully. Tap \"Next\".</string>
-    <string name="numeric_password_confirmed_header_confirm">Set successfully. Tap to confirm.</string>
-    <string name="mixed_password_confirmed_header_continue">Set successfully. Tap \"Next\".</string>
-    <string name="mixed_password_confirmed_header_confirm">Set successfully. Tap to confirm.</string>
+    <string name="numeric_password_confirmed_header_continue">Handlingen var vellykket. Trykk på \"Neste\".</string>
+    <string name="numeric_password_confirmed_header_confirm">Handlingen var vellykket. Trykk for å bekrefte.</string>
+    <string name="mixed_password_confirmed_header_continue">Handlingen var vellykket. Trykk på \"Neste\".</string>
+    <string name="mixed_password_confirmed_header_confirm">Handlingen var vellykket. Trykk for å bekrefte.</string>
     <string name="forget_pattern"><u>Glemt passord</u></string>
     <string name="unlock_pattern"><u>Mønster</u></string>
     <string name="modify_password_mode"><u>Endre passordtype</u></string>
@@ -1849,12 +1890,12 @@ enheten din"</string>
     <string name="unlock_set_unlock_pattern_title">Mønster</string>
     <string name="unlock_set_unlock_pin_title">PIN</string>
     <string name="unlock_set_unlock_password_title">Passord</string>
-    <string name="unlock_set_unlock_pattern_summary">Connect at least 4 dots</string>
+    <string name="unlock_set_unlock_pattern_summary">Forbind minst 4 prikker</string>
     <string name="unlock_set_unlock_pin_summary">Tast inn 4 siffer</string>
     <string name="unlock_set_unlock_password_summary">Kombiner ulike tegn</string>
-    <string name="set_pattern_password_name">Set pattern</string>
-    <string name="set_numeric_password_name">Set PIN</string>
-    <string name="set_mixed_password_name">Set password</string>
+    <string name="set_pattern_password_name">Angi mønsteret</string>
+    <string name="set_numeric_password_name">Velg PIN-kode</string>
+    <string name="set_mixed_password_name">Skriv inn passord</string>
     <string name="wakepath_confirm_start_activity">Tillate %1$s å åpne %2$s?</string>
     <string name="unlike">Nei takk</string>
     <string name="toast_network_eror">Kan ikke koble til nettverket</string>
@@ -2064,7 +2105,7 @@ enheten din"</string>
     <string name="gs_forbid_autosync">Begrens bakgrunnssykronisering</string>
     <string name="gs_app_back_self_start">Batterisparer</string>
     <string name="gs_only_self_start_for_list">Begrens bakgrunnsprosesser for å spare batteri til gaming</string>
-    <string name="gs_game_shortcut">Improve your gaming experience</string>
+    <string name="gs_game_shortcut">Forbedre spillopplevelsen din</string>
     <string name="gs_game_net_priority">Oppkoblingsprioritet</string>
     <string name="gs_game_net_priority_detail">Begrens nedlastingstid for å få nok båndbredde til gaming</string>
     <string name="gs_performance_mode">Ytelsesmodus</string>
@@ -2112,7 +2153,7 @@ enheten din"</string>
     <string name="more_game">Flere spill</string>
     <string name="sys_title_gamebooster_unit_gb">GB</string>
     <string name="sys_title_gamebooster_unit_mb">MB</string>
-    <string name="gmscore_support_service">Google Services</string>
+    <string name="gmscore_support_service">Google-tjenester</string>
     <string name="gmscore_support_remind">Slå denne funksjonen på hvis du opplever problemer med bruk av Gmail, Google Maps og andre Google-apper. Det vil redusere batterilevetiden litt.</string>
     <string name="google_base_app_install_choice">\"%s\" krever at Google Services Framework skal fungere normalt, last ned og installer det?</string>
     <string name="application_item_disable">Begrenset</string>
@@ -2157,11 +2198,11 @@ enheten din"</string>
     <string name="auto_clean_close">Automatisk tømming er av</string>
     <string name="net_booster_title">Nettverk speed boost</string>
     <string name="net_booster_tip">Skru på Nettverk speed for å gjøre Wi-Fi tilkoblingen mer stabil og å redusere nettverksforsinkelser.</string>
-    <string name="wifi_optizition_title">Wi-Fi speed boost</string>
+    <string name="wifi_optizition_title">Wi-Fi-fartsboost</string>
     <string name="wifi_optizition_tip">Skru på Wi-Fi speed boost for å gjøre Wi-Fi tilkoblingen mer stabil. En liten mengde mibiltmobildata vil bli brukt.</string>
     <string name="wifi_optizition_loading">Skrur på Xunyou Network speed boost…</string>
     <string name="free_send_net_booster">Gratis Nettverk speed boost</string>
-    <string name="free_send_net_booster_tip">Enjoy smooth gaming with the free network speed boost.</string>
+    <string name="free_send_net_booster_tip">Nyt en smidig spillopplevelse med en gratis nettverkshastighets-boost.</string>
     <string name="free_send_net_booster_busniess">Få en gratis Xunlei speed boost</string>
     <string name="free_send_net_booster_busniess_tip">Trykk for å få</string>
     <string name="net_booster_overdue_notification">Nettverk speed boost-økt er i ferd med å utløpe</string>
@@ -2193,24 +2234,31 @@ enheten din"</string>
     <string name="accessibility_gameboosterservice_description">Slå på for å dempe innkommende WeChat-samtaler når du spiller spill</string>
     <string name="gb_cutoff">|</string>
     <string name="gb_ad_game_size">MB</string>
-    <string name="gb_new_feature">New feature</string>
-    <string name="gb_sign_notification_title">Boost network speed for games</string>
-    <string name="gb_sign_notification_summary">Check in daily to receive Xunyou boost</string>
-    <string name="gs_sign_notification">Remind to check in at 8 PM daily</string>
-    <string name="gb_sign_gift">Check in to get rewards</string>
-    <string name="signed_rule">Rules</string>
-    <string name="signed_rule_one">1. Check in 10, 20, or 28 days in a row every month to get a Xunyou boost for 1, 2, or 3 days respectively.</string>
-    <string name="signed_rule_two">2. You can get only 1 Xunyou boost per month.</string>
-    <string name="signed_rule_three">"3. Days when you check in are annulled at the beginning of every month. The remaining days aren't rolled over."</string>
-    <string name="gb_get_gift_right_now">Check in now</string>
-    <string name="gb_have_signed">Checked in today</string>
-    <string name="gb_sign_gift_button_text">Receive</string>
-    <string name="gb_xunyou_gift_type_one">Xunyou 1-day boost</string>
-    <string name="gb_xunyou_gift_type_two">Xunyou 2-day boost</string>
-    <string name="gb_xunyou_gift_type_three">Xunyou 3-day boost</string>
-    <string name="gb_signed_title">Checked in this month</string>
-    <string name="gb_network_status_bad">A connection error occurred.</string>
-    <string name="gs_open_game_booster_summary">Boost network speed for games</string>
+    <string name="gb_new_feature">Ny funksjon</string>
+    <string name="gb_sign_notification_title">Boost nettverkshastighet for spill</string>
+    <string name="gb_sign_notification_summary">Sjekk inn daglig for å motta Xunyou boost</string>
+    <string name="gs_sign_notification">Minn på å sjekke inn hver dag kl. 20</string>
+    <string name="gb_sign_gift">Sjekk inn for å få belønninger</string>
+    <string name="signed_rule">Regler</string>
+    <string name="signed_rule_one">1. Sjekk inn 10, 20, eller 28 dager på rad hver måned for å få en Xunyou-boost i henholdsvis 1, 2 eller 3 dager.</string>
+    <string name="signed_rule_two">2. Du kan kun få 1 Xunyou boost per måned.</string>
+    <string name="signed_rule_three">3. Antall dager du sjekker inn slettes ved begynnelsen av hver måned. De gjenstående dagene rulles ikke over.</string>
+    <string name="gb_get_gift_right_now">Sjekk inn nå</string>
+    <string name="gb_have_signed">Sjekket inn i dag</string>
+    <string name="gb_sign_gift_button_text">Motta</string>
+    <string name="gb_xunyou_gift_type_one">Xunyou 1-dags-boost</string>
+    <string name="gb_xunyou_gift_type_two">Xunyou 2-dags-boost</string>
+    <string name="gb_xunyou_gift_type_three">Xunyou 3-dags-boost</string>
+    <string name="gb_signed_title">Sjekket inn denne måneden</string>
+    <string name="gb_network_status_bad">En tilkoblingsfeil oppstod.</string>
+    <string name="gs_open_game_booster_summary">Boost nettverkshastighet for barn</string>
     <string name="gb_signed_gift_loading_summary">Et øyeblikk…</string>
     <string name="gb_signed_gift_loading_fail">Kunne ikke laste</string>
+    <string name="gb_msg_completely_shielded">Skjul meldinger</string>
+    <string name="gb_msg_quickly_answer">Tillat hurtigsvar</string>
+    <string name="gb_msg_transparent_dispaly">Varsler med gjennomsiktig bakgrunn</string>
+    <string name="gb_msg_completely_shielded_summary">Skjul</string>
+    <string name="gb_msg_quickly_answer_summary">Hurtigsvar</string>
+    <string name="gb_msg_transparent_dispaly_summary">Gjennomsiktig</string>
+    <string name="exit_dialog_homepage_optimise_message">Ytelsen til enheten din er lavere enn 80 poeng. Optimalisere nå?</string>
 </resources>

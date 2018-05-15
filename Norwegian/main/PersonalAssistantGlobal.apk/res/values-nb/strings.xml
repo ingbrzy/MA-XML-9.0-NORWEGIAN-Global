@@ -126,7 +126,7 @@
     <string name="empty_fav_card_tip">Ingen favoritter enda.</string>
     <string name="enter_address">Fyll inn en adresse</string>
     <string name="facebook_parent">Facebook</string>
-    <string name="facebook_post">Post</string>
+    <string name="facebook_post">Legg ut</string>
     <string name="focus_stocks">Mine selskaper</string>
     <string name="function_not_support">Denne funksjonen støttes ikke på denne enheten.</string>
     <string name="gmail_compose">Skriv ny</string>
@@ -163,7 +163,7 @@
     <string name="map_title">Trafikk</string>
     <string name="map_title_around">I nærheten</string>
     <string name="map_title_home">Hjem</string>
-    <string name="map_title_hours">h</string>
+    <string name="map_title_hours">t</string>
     <string name="map_title_minutes">m</string>
     <string name="map_title_no_route_found">Ingen rute er funnet</string>
     <string name="map_title_office">Jobb</string>
@@ -199,6 +199,7 @@
     <string name="ola_trip">Ring etter en drosje</string>
     <string name="ola_trip_content">Beregn taksten og ring etter en Ola</string>
     <string name="ola_trip_content_detail">Beregn den omtrentlige taksten og ring etter en Ola.</string>
+    <string name="phone_check">Optimalisering</string>
     <string name="place_label">Ofte besøkte steder</string>
     <string name="record_name">Opptak</string>
     <string name="record_parent">Opptaker</string>
@@ -259,9 +260,10 @@
     <string name="stock_change_rate_format">%.2f%%</string>
     <string name="stock_color_schema">Fargeoppsett</string>
     <string name="stock_list_empty_text">Du følger ikke noen selskaper</string>
+    <string name="stock_provider">Aksjekursene er levert av Webull</string>
     <string name="stock_search_empty">Kunne ikke finne aksjer.</string>
     <string name="stock_title">Aksjer</string>
-    <string name="stock_title_schema">Stocks display options</string>
+    <string name="stock_title_schema">Visningsvalg for aksjer</string>
     <string name="stock_toast_add_max_count">Du kan følge opptil 8 selskaper.</string>
     <string name="stock_web_lable">Aksjer</string>
     <string name="time_just_now">Akkurat nå</string>
@@ -290,17 +292,18 @@
     <string name="uber_target">Hvor til?</string>
     <string name="uber_trip">Ring etter en drosje</string>
     <string name="uber_x">UberX</string>
-    <string name="upgrade_being">Updating…</string>
-    <string name="upgrade_fail_message">"Couldn't update. Make sure you're using the latest version of MIUI."</string>
-    <string name="upgrade_find">Update is available</string>
-    <string name="upgrade_later">Update later</string>
-    <string name="upgrade_log_default">"1. Improved performance.
-2. Fixed bugs."</string>
-    <string name="upgrade_log_subtitle">(Downloaded via Wi-Fi)</string>
-    <string name="upgrade_log_title">New version</string>
-    <string name="upgrade_now">Update</string>
+    <string name="upgrade_being">Oppdaterer…</string>
+    <string name="upgrade_fail_message">Kunne ikke oppdatere. Sørg for at du bruker den siste versjonen av MIUI.</string>
+    <string name="upgrade_find">Oppdatering er tilgjengelig</string>
+    <string name="upgrade_later">Oppdater senere</string>
+    <string name="upgrade_log_default">"1. Forbedret ytelse.
+2. Feilrettinger."</string>
+    <string name="upgrade_log_subtitle">(Lastet ned via Wi-Fi)</string>
+    <string name="upgrade_log_title">Ny versjon</string>
+    <string name="upgrade_now">Oppdater</string>
     <string name="user_id">Bruker-ID: %s</string>
     <string name="walk">Gå</string>
+    <string name="webull_title">Webull</string>
     <string name="which_transport">Hvordan kommer du deg vanligvis til bestemmelsesstedet ditt?</string>
     <string name="year_month_day_all_format_en">dd/mm/yyyy HH:mm:ss</string>
     <string name="year_month_day_format">dd/MM/yyyy</string>

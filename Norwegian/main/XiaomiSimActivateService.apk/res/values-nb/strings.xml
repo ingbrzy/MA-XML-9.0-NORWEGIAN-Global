@@ -91,7 +91,7 @@
     <string name="activate_popup_title_error_device_id">Ugyldig IMEI</string>
     <string name="activate_popup_desc_error_device_id">Slå *#06# tfor å sjekke IMEI</string>
     <string name="activate_popup_confirm_error_device_id">Prøv igjen</string>
-    <string name="activate_feature_mx">Mi Message</string>
+    <string name="activate_feature_mx">Mi message</string>
     <string name="activate_feature_mx_and_voip">Mi Message og Tale</string>
     <string name="activate_feature_mms_sync">Synkroniser meldinger</string>
     <string name="activate_feature_call_log_sync">Synkroniser anropshistorikk</string>
@@ -115,6 +115,6 @@
     <string name="phone_get_text">Tillat %1$s å få telefonnummeret ditt (%2$s)?</string>
     <string name="phone_get_processing">Henter…</string>
     <string name="agree">Tillat</string>
-    <string name="privacy_revoke_tips">After you revoke authorization, Messaging will stop collecting your data and delete all your data from its servers. Sync with Mi Cloud, Mi Message, and other Messaging features will no longer be available. Revoke authorization anyway?</string>
-    <string name="privacy_revoke_failed_msg">Activation requires granting authorization so that Messaging could get your phone number.</string>
+    <string name="privacy_revoke_tips">Etter du har tilbakekalt autorisasjonen, vil appen slutte å samle inn dataene dine, og alle dine data fra serverne slettes. Synkronisering med Mi Cloud, Mi Message og andre Messaging-funksjoner vil ikke lenger være tilgjengelig. Tilbakekalle autorisasjonen likevel?</string>
+    <string name="privacy_revoke_failed_msg">Aktiveringen krever tildeling av autorisasjon slik at Messaging kan få tak i telefonnummeret ditt.</string>
 </resources>

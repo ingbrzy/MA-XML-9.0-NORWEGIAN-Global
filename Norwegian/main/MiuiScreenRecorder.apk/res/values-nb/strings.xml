@@ -13,8 +13,10 @@
     <string name="button_confirm">OK</string>
     <string name="button_goon_recorder">Gjenoppta</string>
     <string name="cancel_edit">Avbryt</string>
+    <string name="cannot_change_frames">Bildefrekvensen kan bare tilpasses for opptak med fast bildefrekvens.</string>
     <string name="cannot_change_parames">Kunne ikke endre parametre under opptak</string>
     <string name="cannot_record">Kunne ikke ta opp. Prøv igjen senere.</string>
+    <string name="close_screen_record">Stoppet opptak</string>
     <string name="date_day" />
     <string name="date_month">/</string>
     <string name="date_year">/</string>
@@ -22,6 +24,8 @@
     <string name="description_title">Om Skjermopptaker</string>
     <string name="deselect_all">Fjern alle valg</string>
     <string name="error_open_file_failed_no_app_found">Fant ikke app til å åpne denne filen</string>
+    <string name="fixed_frame_rate">Fast bildefrekvens</string>
+    <string name="fixed_frame_rate_summary">Å ta opp bilder med fast bildefrekvens forbedrer avspillingen på sosiale media-plattformer og reduserer batteritiden.</string>
     <string name="frames">Bildefrekvens</string>
     <string name="frames_summary">Høyere bildefrekvens øker bevegelsesskarpheten</string>
     <string name="frequently_click_toast">Et øyeblikk…</string>
@@ -33,6 +37,9 @@
     <string name="hint_volume_down">Senk volum</string>
     <string name="hint_volume_up">Øk volum</string>
     <string name="home_title_none">Velg elementer</string>
+    <string name="is_checked">Valgt</string>
+    <string name="is_go_home">Gå tilbake til skjermopptaker</string>
+    <string name="is_go_home_summary">Åpne skjermopptakerens startside etter du stopper opptaket</string>
     <string name="loopback_sound">Høyttaler</string>
     <string name="low_battery">Lad telefonen din før du starter opptak</string>
     <string name="low_battery_title">Lav batterikapasitet</string>
@@ -58,6 +65,7 @@
     <string name="screen_record_option">Opptaksalternativer</string>
     <string name="screen_record_params">Opptaksparametre</string>
     <string name="select_all">Velg alle</string>
+    <string name="settings">Innstillinger</string>
     <string name="show_hard_key">Visualiser navigeringsknapper</string>
     <string name="show_hard_key_summary">Vis beskjeder når du trykker på Hjem-, Meny- og Tilbake-knappene</string>
     <string name="show_screen_touch">Vis berøringsbevegelser</string>
@@ -66,9 +74,12 @@
     <string name="sound_source_summary">Systemlyder eller mikrofoner</string>
     <string name="start">Start</string>
     <string name="start_recording">Start opptak</string>
-    <string name="stop_by_second_space">Switching spaces will stop the recording</string>
+    <string name="stop_by_second_space">Å bytte mellom områder vil stanse opptaket</string>
     <string name="stop_record_while_locking">Lås skjerm for å avslutte</string>
     <string name="stop_record_while_locking_summary">Avslutt opptak og lagre video når skjermen låses</string>
     <string name="stop_recording">Stopp opptak</string>
+    <string name="storage_location">Lagring</string>
+    <string name="storage_location_summary">Velg ditt foretrukne lagringsvalg</string>
     <string name="timer_format">%s</string>
+    <string name="unchecked">Ikke valgt</string>
 </resources>

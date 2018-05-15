@@ -45,8 +45,8 @@
         <item quantity="one">Du kan tømme uviktige data for %d apper</item>
     </plurals>
     <plurals name="deepclean_app_summary">
-        <item quantity="other">%d apps installed, you can delete rarely used apps</item>
-        <item quantity="one">%d apper installert, du kan slette apper du sjelden bruker</item>
+        <item quantity="other">%d apper installert, du kan slette apper du sjelden bruker</item>
+        <item quantity="one">%d app installed, you can delete this one</item>
     </plurals>
     <plurals name="deepclean_large_summary">
         <item quantity="other">Fant %d store filer, du kan slette de som ikke er viktige</item>
@@ -57,16 +57,16 @@
         <item quantity="one">Fant %d bilde, du kan slette duplikater og overflødige bilder</item>
     </plurals>
     <plurals name="deepclean_apk_summary">
-        <item quantity="other">Found %d APKs, you can delete the unnecessary ones.</item>
-        <item quantity="one">Fant %d APK-er, du kan slette de du ikke trenger.</item>
+        <item quantity="other">Fant %d APK-er, du kan slette de du ikke trenger.</item>
+        <item quantity="one">Found %d APK, you can delete this one.</item>
     </plurals>
     <plurals name="deepclean_video_summary">
         <item quantity="other">Fant %d videoer, du kan slette de du ikke trenger.​</item>
         <item quantity="one">Found %d video, you can delete this one.</item>
     </plurals>
     <plurals name="deepclean_install_info_desc1">
-        <item quantity="other">%d apps installed</item>
-        <item quantity="one">%d apper installert</item>
+        <item quantity="other">%d apper installert</item>
+        <item quantity="one">%d app installert</item>
     </plurals>
     <plurals name="wechat_copy_video_failed_dialog_msg">
         <item quantity="other">Kunne ikke eksportere %d videoer. Frigjør lagringsplass og prøv igjen.</item>
@@ -81,11 +81,11 @@
         <item quantity="one">Ikke brukt på %d dag</item>
     </plurals>
     <plurals name="app_usage_month">
-        <item quantity="other">"Haven't used for %d months"</item>
+        <item quantity="other">Ikke brukt på %d måneder</item>
         <item quantity="one">Ikke brukt på %d måneder</item>
     </plurals>
     <plurals name="app_usage_year">
-        <item quantity="other">"Haven't used for %d years"</item>
+        <item quantity="other">Ikke brukt på %d år</item>
         <item quantity="one">Ikke brukt på %d år</item>
     </plurals>
     <plurals name="resutl_function_install_app_summary">

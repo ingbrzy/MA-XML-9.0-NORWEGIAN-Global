@@ -74,7 +74,7 @@
         <item>Følg OL med Mi</item>
     </string-array>
     <string-array name="weather_type">
-        <item>Clear</item>
+        <item>Klart</item>
         <item>Skyet</item>
         <item>Overskyet</item>
         <item>Tåke</item>

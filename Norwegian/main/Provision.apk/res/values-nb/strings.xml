@@ -15,25 +15,26 @@ Se det valgte tastaturets personverninnstillinger."</string>
     <string name="sim_card_detection_info">Les instruksjonene som ble levert sammen med enheten din for å finne ut hvordan du setter inn SIM-kort.</string>
     <string name="sim_card_detecting">Ser etter SIM-kort…</string>
     <string name="sim_card_detecting_check">Finner ikke SIM-kortet. Kontroller at SIM-kortet er riktig installert og at du har dekning på saldoen.</string>
+    <string name="sim_card_detecting_confirm_turn_on_network">Tillate å koble til mobildatanettverk? Hvis du gjør dette, vil SIM-kortet som du har satt inn brukes til å koble til mobildatanettverk.</string>
     <string name="other_settings">Ekstra innstillinger</string>
     <string name="other_settings_location">Sted</string>
-    <string name="other_settings_location_summary">Allow apps to access your location</string>
+    <string name="other_settings_location_summary">Tillat apper å få tilgang til plasseringen din</string>
     <string name="other_settings_user_experience">Brukeropplevelsesprogram</string>
-    <string name="other_settings_user_experience_summary">Help us improve our products and services by sharing your usage stats with us. View details</string>
-    <string name="other_settings_user_experience_summary_index">View details</string>
+    <string name="other_settings_user_experience_summary">Hjelp oss med å forbedre produktene og tjenestene våre ved å dele bruksstatistikken din med oss. Se flere detaljer</string>
+    <string name="other_settings_user_experience_summary_index">Vis detaljer</string>
     <string name="other_settings_upload_debug_log_title">Send diagnosedata automatisk</string>
-    <string name="other_settings_upload_debug_log_summary">Usage stats which help us locate and solve issues may contain your personal info</string>
+    <string name="other_settings_upload_debug_log_summary">Bruksstatistikk som hjelper oss med å finne og løse problemer kan inneholde dine personlige opplysninger</string>
     <string name="other_settings_auto_update">Oppdater automatisk</string>
     <string name="other_settings_auto_update_summary">MIUI vil velge beste tidspunkt for å installere oppdateringer</string>
     <string name="other_settings_ad_enable">Tilpasset annonseanbefaling</string>
-    <string name="other_settings_ad_enable_summary">Receive personalized ads based on your behavior data</string>
+    <string name="other_settings_ad_enable_summary">Motta personlig tilpassede annonser basert på atferdsdataene dine</string>
     <string name="back">Tilbake</string>
     <string name="next">Neste</string>
     <string name="skip_underline">Hopp over dette trinnet</string>
     <string name="sim_dectection_next">Fortsett</string>
     <string name="shut_down">Lukk</string>
     <string name="sim_redetection">Sjekk igjen</string>
-    <string name="navigation_picker_gesture_guide">Gesture guide</string>
+    <string name="navigation_picker_gesture_guide">Bevegelses-veiledning</string>
     <string name="congratulation_title">Oppsettet er fullført</string>
     <string name="congratulation_label">Du er klar!​</string>
     <string name="pref_title_voice_slot">Foretrukket stemme-SIM-kort</string>
@@ -42,12 +43,12 @@ Se det valgte tastaturets personverninnstillinger."</string>
     <string name="ime_privacy_policy">Personverninnstillinger for valgt tastatur</string>
     <string name="ime_privacy_policy_no_network">Ingen nettverksforbindelse. Se personverninnstillinger for dette tastaturet på %s.</string>
     <string name="terms_of_use">Vilkår og betingelser</string>
-    <string name="terms_of_use_label">"Ditt personvern er svært viktig for oss. Les våre vilkår for bruk og personvernerklæring for å forstå hvilken informasjon vi samler inn, hvordan vi bruker den, og hvilke valg som er tilgjengelige for deg deg.
+    <string name="terms_of_use_label">"Ditt personvern er svært viktig for oss. Les våre vilkår for bruk og personvernerklæring for å forstå hvilken informasjon vi samler inn, hvordan vi bruker den, og hvilke valg som er tilgjengelige for deg.
 
-Du må akseptere våre vilkår for bruke og personvernerklæring før du kan bruke MIUI. Mi-tjenester, Mi SIM-aktiveringstjenester, Mi Cloud, Finn enhet, startskjerm, Game Center, MAB, Miui Daemon og MSA-systemkomponenter, webapps, App vault, statistikk, smartkort, Mi Link og Mi Konto-komponenter vil koble til Internett og hente din plassering."</string>
-    <string name="terms_of_use_label_gms">"Ditt personvern er svært viktig for oss. Les våre vilkår for bruk og personvernerklæring for å forstå hvilken informasjon vi samler inn, hvordan vi bruker den, og hvilke valg som er tilgjengelige for deg deg.
+Du må samtykke til våre vilkår for bruk og personvernerklæringen vår før du kan bruke MIUI. Mi-tjenester, Mi SIM-aktiveringstjenester, Mi Cloud, Finn enhet, Startskjerm, Game Center, MAB, Miui Daemon og MSA-systemkomponenter, Quick apps, App vault, statistikk, smartkort, Mi Link og Mi Konto-komponenter vil kobles til internett og hente plasseringen din."</string>
+    <string name="terms_of_use_label_gms">"Ditt personvern er svært viktig for oss. Les våre vilkår for bruk og personvernerklæring for å forstå hvilken informasjon vi samler inn, hvordan vi bruker den, og hvilke valg som er tilgjengelige for deg.
 
-Du må akseptere våre vilkår for bruke og personvernerklæring før du kan bruke MIUI. Mi-tjenester, Mi SIM-aktiveringstjenester, Mi Cloud, Finn enhet, startskjerm, Game Center, MAB, Miui Daemon og MSA-systemkomponenter, webapps, App vault, statistikk, smartkort, Mi Link, Mi Konto og Google Play services- komponenter vil koble til Internett og hente din plassering."</string>
+Du må samtykke til våre vilkår for bruk og personvernerklæring før du kan bruke MIUI. Mi-tjenester, Mi SIM-aktiveringstjenester, Mi Cloud, Finn enhet, Startskjerm, Game Center, MAB, Miui Daemon og MSA-systemkomponenter, Quick apps, App vault, statistikk, smartkort, Mi Link, Mi Konto og Google Play services-komponenter vil kobles til internett og hente din plassering."</string>
     <string name="user_agreement">Vilkår for bruk</string>
     <string name="privacy_policy">Personvernerklæring</string>
     <string name="application_permissions">Apptillatelser</string>
@@ -72,7 +73,7 @@ Du må akseptere våre vilkår for bruke og personvernerklæring før du kan bru
     <string name="content_description_complete">Fullført</string>
     <string name="language_picker_other_languages_title">Flere språk</string>
     <string name="language_settings">Velg språk</string>
-    <string name="navigation_picker_radio_text_full_screen">Full screen gestures</string>
+    <string name="navigation_picker_radio_text_full_screen">Fullskjermbevegelser</string>
     <string name="navigation_picker_radio_text_virtual_key">Knapper</string>
     <string name="congratulation_swipe">Dra opp for å åpne systemet</string>
     <string name="enable_accessibility_dialog_message">Du har slått på TalkBack ved å trykke på skjermen med 2 fingre i mer enn 10 sekunder. TalkBack gir tilbakemeldinger til personer med synshemming. Hvis du har skrudd den på, kan du klikke på avbrytknappen, og deretter dobbeltklikke på skjermen.</string>

@@ -5,72 +5,72 @@
         <item>Feb</item>
         <item>Mar</item>
         <item>Apr</item>
-        <item>May</item>
+        <item>Mai</item>
         <item>Jun</item>
         <item>Jul</item>
         <item>Aug</item>
         <item>Sep</item>
-        <item>Oct</item>
+        <item>Okt</item>
         <item>Nov</item>
-        <item>Dec</item>
+        <item>Des</item>
     </string-array>
     <string-array name="calendar_remind_string_array">
-        <item>Tonight</item>
-        <item>Tomorrow</item>
-        <item>Weekend</item>
-        <item>Next week</item>
-        <item>Next month</item>
-        <item>Pick date</item>
+        <item>I kveld</item>
+        <item>I morgen</item>
+        <item>I helgen</item>
+        <item>Neste uke</item>
+        <item>Neste måned</item>
+        <item>Velg dato</item>
     </string-array>
     <string-array name="compose_modes">
-        <item>Reply</item>
-        <item>Reply all</item>
-        <item>Forward</item>
+        <item>Svar</item>
+        <item>Svar alle</item>
+        <item>Videresend</item>
     </string-array>
     <string-array name="general_preference_text_zoom_summary_array">
-        <item>Tiny</item>
-        <item>Small</item>
+        <item>Veldig liten</item>
+        <item>Liten</item>
         <item>Normal</item>
-        <item>Large</item>
-        <item>Huge</item>
+        <item>Stor</item>
+        <item>Diger</item>
     </string-array>
     <string-array name="menu_att_mgr_sort_string_array">
-        <item>Recently viewed</item>
-        <item>Format</item>
-        <item>Name</item>
-        <item>Sender</item>
-        <item>Date received</item>
+        <item>Nylig sett</item>
+        <item>Formater</item>
+        <item>Navn</item>
+        <item>Avsender</item>
+        <item>Mottatt dato</item>
     </string-array>
     <string-array name="moveto_folder_sections">
         <item>System</item>
-        <item>Frequently Used</item>
-        <item>All Folders</item>
+        <item>Hyppig brukt</item>
+        <item>Alle mapper</item>
     </string-array>
     <string-array name="prefEntries_autoAdvance">
-        <item>Newer message</item>
-        <item>Older message</item>
-        <item>Inbox</item>
+        <item>Nyere melding</item>
+        <item>Eldre melding</item>
+        <item>Innboks</item>
     </string-array>
     <string-array name="signature_normal_string_array_next">
-        <item>Address:</item>
-        <item>Tel:</item>
-        <item>Name:</item>
-        <item>Email:</item>
-        <item>Mobile:</item>
+        <item>Adresse:</item>
+        <item>Telefon:</item>
+        <item>Navn:</item>
+        <item>E-post:</item>
+        <item>Mobil:</item>
         <item>WeChat:</item>
-        <item>Fax:</item>
-        <item>Postal Code:</item>
+        <item>Faks:</item>
+        <item>Postnummer:</item>
     </string-array>
     <string-array name="signature_special_string_array_next">
-        <item>Thanks,</item>
-        <item>Best Regards</item>
-        <item>Sent from my</item>
-        <item>Original email</item>
-        <item>Sent from my</item>
-        <item>Sent from</item>
-        <item>From</item>
-        <item>This email</item>
-        <item>Disclaimer</item>
-        <item>Email Disclaimer</item>
+        <item>Takk,</item>
+        <item>Med vennlig hilsen</item>
+        <item>Sendt fra min</item>
+        <item>opprinnelige e-post</item>
+        <item>Sendt fra min</item>
+        <item>Sendt fra</item>
+        <item>Fra</item>
+        <item>Denne e-posten</item>
+        <item>Ansvarsfraskrivelse</item>
+        <item>Ansvarsfraskrivelse knyttet til e-posten</item>
     </string-array>
 </resources>
