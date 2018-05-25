@@ -835,10 +835,8 @@ Prøv en annen innboks."</string>
     <string name="recognize_hotel_other_money">Andre utgifter %1$s</string>
     <string name="recognize_hotel_reverse_date">Sjekk inn før %1$s:%2$s %3$s</string>
     <string name="recognize_hotel_room_type">Rom</string>
-    <string name="recognize_hotel_room_type_value">%1$s × %2$s</string>
     <string name="recognize_hotel_title">Hotellreservering</string>
     <string name="recognize_hotel_user_names">Gjest</string>
-    <string name="recognize_hotel_user_names_value">%1$s+%2$s</string>
     <string name="recognize_setting_title">Reiseinnstillinger</string>
     <string name="recognize_ticket_air_notification_content">Nyt flyreisen din!</string>
     <string name="recognize_ticket_air_notification_title">Flyet %3$s (%1$s/%2$s) vil snart ta av. Dobbeltsjekk flyinformasjonen din.</string>
